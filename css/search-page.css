@@ -19,6 +19,10 @@ html {
     background-color: #fff !important;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* Bootstrap Navigation Menu Animation */
 
 .navbar-toggler {
@@ -202,6 +206,10 @@ button span {
 
 /* Filter */
 
+.input-group-btn button:hover {
+    color: #fff;
+}
+
 #filter {
     background-color: #f4f4f4;
     width: 100%;
@@ -351,6 +359,51 @@ button span {
     -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+/* Text Filtering */
+
+.text-filtering {
+    background-color: #fff;
+    height:5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+     -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.text-filtering a {
+    color: #3a3a3a;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+/* Page Number */
+
+.page-number {
+    height: 5rem;
+}
+
+.number {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.number a {
+    color: #3a3a3a;
 }
 
 /* User Card */
@@ -659,6 +712,33 @@ button span {
     font-size: 2rem;
 }
     
+    /* Text Filtering */
+    
+    .text-filtering { 
+    margin-bottom: 3rem;
+}
+
+    .text-filtering a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+    /* Page Number */
+
+    .page-number {
+    height: 5rem;
+}
+
+    .number {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+}
+
     /*User Card */
     .last-authors-card-bg {
         height:auto;
@@ -740,6 +820,21 @@ button span {
     /* Filter Search Input */
     .input-search input {
     flex: 38rem 0 0 !important;
+}
+    
+    /* Page Number */
+
+    .page-number {
+    height: 5rem;
+}
+
+    .number {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
 }
     
     /* User Card */
@@ -884,6 +979,32 @@ button span {
      .filter-okay input {
         font-size: 1.5rem;
     }
+    
+      /* Text Filtering */
+    
+    .text-filtering { 
+        margin-bottom: 2rem;
+}
+
+    .text-filtering a {
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+
+    /* Page Number */
+
+    .page-number {
+    height: 5rem;
+}
+
+    .number {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
     
      /* Filter Search */
     .authors-heading {
