@@ -1,0 +1,108 @@
+/*Footer CSS*/
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+.footer-logo {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.footer-logo:hover {
+    text-decoration: none;
+}
+
+#footer h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #3AAFA9;
+}
+
+#footer p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.footer-information {
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #3AAFA9 !important;
+
+
+}
+
+#footer ul li {
+    list-style: none;
+    font-size: 2rem;
+
+}
+
+#footer ul li a {
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+#footer ul li a:hover {
+    text-decoration: none;
+    color: #3AAFA9;
+}
+
+.footer-margin {
+    padding: 0 3%;
+}
+
+.copyright i {
+    color: #fff;
+}
+
+/* Footer Responsive */
+
+@media screen and (min-width:375px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:414px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:500px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:576px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    #footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #footer {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #footer {
+        text-align: left;
+    }
+}

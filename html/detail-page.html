@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arama Sayfası</title>
+    <!--    Mobile Device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Navbar Css-->
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <!--Search Page CSS-->
+    <link rel="stylesheet" href="../css/detail-page.css">
+
+    <!--Comment CSS-->
+    <link rel="stylesheet" href="comment.css">
+    
+    <!--Footer CSS-->
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!--    Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--    Font Awesome-->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top bg-light">
+        <!--Container-->
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand my-2" href="#">tahminkulübü.com</a>
+            <!--Responsive Menu-->
+            <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbars01" aria-controls="navbars01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!--Navigation Menu Item-->
+
+            <div class="collapse navbar-collapse" id="navbars01">
+
+                <ul class="navbar-nav mx-auto my-2">
+
+                    <li class="nav-item "><a class="nav-link mx-4 active" href="#">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Predictions</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Authors</a> </li>
+
+
+
+                </ul>
+
+                <!--Dropdown Menu Account-->
+                <div class="dropdown d-flex">
+
+                    <div class="account-icons float-right">
+                        <a href="#"><i class="fas fa-bell mt-4 mr-3"></i></a>
+                        <a href="#"><i class="fas fa-comment-alt"></i></a>
+                    </div>
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        <!--Dropdown Image-->
+
+                        <div class="account-img float-left p-2">
+                            <img src="../img/face.jpg" alt="">
+                        </div>
+
+                        <!--Dropdown Account Text-->
+                        <p class="d-inline-block mt-2">My Account
+                            <br>
+
+                            <span class="float-left">Jhen Lui </span>
+                        </p>
+
+                    </button>
+
+                    <!--Dropdown Menu-->
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">My Profile</a>
+                        <a class="dropdown-item" href="#">My Settings</a>
+                        <a class="dropdown-item" href="#">My Followers</a>
+                        <a class="dropdown-item" href="#">My Predictions</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+
+
+                </div>
+
+                <!--Dropdown Menu Account-->
+
+            </div>
+
+            <!--Navigation Menu Item-->
+        </div>
+        <!--Container-->
+    </nav>
+    <!--Navigation Bar-->
+    
+    <!--Detail-Page-->
+    <section id="detail-page-inside">
+        <!--Container-->
+        <div class="container">
+            <!--Row-->
+            <div class="row">   
+                <!--Text Paragraph Layout-->
+                <div class="col-12 col-sm-12 col-md-9 col-lg-9">
+                    <!--Data-->
+                    <div class="data d-flex w-100">
+                       <!--Data-Left-Inside-->
+                       <div class="d-flex align-items-center w-50">
+                        <!--Eyes-->
+                        <div class="heading-eyes d-inline-block mx-4">
+                            <i class="fas fa-eye float-left"></i>
+                            <p class="ml-2 float-left mb-0">124</p>
+                        </div>
+                        <!--Comment-->
+                        <div class="heading-comment d-inline-block mx-4">
+                            <i class="fas fa-comment-dots float-left"></i>
+                            <p class="ml-2 float-left mb-0">48</p>
+                        </div>
+                        <!--Calendar-->
+                        <div class="heading-date d-inline-block mx-4">
+                             <i class="far fa-calendar-check float-left"></i>
+                             <p class="ml-2 float-left mb-0">01.11.2020</p>
+                        </div>  
+                        <!--Calendar-->
+                         </div> 
+                       <!--Data-Left-Inside-->
+                        
+                       <!--Data-Right-Inside-->
+                       <div class="data-right d-flex w-50 justify-content-start flex-row-reverse">
+                            <img src="../img/heart.svg" alt="" class="mx-4">
+                            <img src="../img/share.svg" alt="" class="ml-4">
+                            <img src="../img/award.svg" alt="">
+                  
+                        </div>
+                       <!--Data-Right-Inside-->
+                    </div>
+                    <!--Data-->
+                    <!--Heading - Paragraph-->
+                    <div class="authors-text my-4 p-3">
+                        <!--Heading-->
+                        <div class="heading mt-4 ml-4">
+                       <h3 class="d-inline-block">Heading</h3>
+                       <img src="../img/award.svg" alt="" class="ml-4">
+                       <p class="d-inline-block mb-0 ml-2">220$</p>
+                       </div>
+                        <!--Heading-->
+                        
+                        <!--Paragraph-->
+                        <div class="paragraph mt-5 px-3">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nihil, sed. Ad aliquam hic adipisci, aperiam, a at impedit iste debitis inventore tempore, asperiores veniam pariatur ipsam iusto quam voluptates maiores possimus esse sapiente in repellendus itaque repudiandae maxime! Expedita ipsa omnis aspernatur sequi laborum natus non modi, a! Vitae, alias. Aliquam tempore quisquam blanditiis officiis sint? Aliquam atque, vitae, commodi facilis labore natus incidunt maiores, doloremque quod aut, accusamus!</p>
+                           
+                           <br>
+                        
+                           
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rem soluta iusto, libero, inventore, omnis quas suscipit tenetur dolore laboriosam atque expedita assumenda vero ducimus quo aut! Ullam, obcaecati beatae.</p>
+                           
+                            <br>
+                           
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet hic, perferendis vero vitae ipsam quisquam, cum quaerat maxime dignissimos maiores dolorem, enim possimus voluptas architecto officia pariatur. Aliquam, veniam deserunt ratione ad omnis porro blanditiis aperiam, odit quae doloremque unde. Quidem corporis, quam aspernatur recusandae vel cupiditate natus debitis, excepturi sequi inventore itaque praesentium enim omnis ullam eos illo fuga? Cum possimus itaque at explicabo eaque tenetur voluptate doloremque unde, officiis deleniti assumenda magnam quia, nulla iure labore. Possimus sed qui a perferendis ipsam et excepturi reprehenderit eligendi minima voluptatibus nisi tenetur molestiae, exercitationem, nulla doloribus consectetur atque sit rerum!</p>
+                           
+                            <br>
+                           
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet hic, perferendis vero vitae ipsam quisquam, cum quaerat maxime dignissimos maiores dolorem, enim possimus voluptas architecto officia pariatur. Aliquam, veniam deserunt ratione ad omnis porro blanditiis aperiam, odit quae doloremque unde. Quidem corporis, quam aspernatur recusandae vel cupiditate natus debitis, excepturi sequi inventore itaque praesentium enim omnis ullam eos illo fuga? Cum possimus itaque at explicabo eaque tenetur voluptate doloremque unde, officiis deleniti assumenda magnam quia, nulla iure labore. Possimus sed qui a perferendis ipsam et excepturi reprehenderit eligendi minima voluptatibus nisi tenetur molestiae, exercitationem, nulla doloribus consectetur atque sit rerum!</p>
+                            <br>
+                        
+                           
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rem soluta iusto, libero, inventore, omnis quas suscipit tenetur dolore laboriosam atque expedita assumenda vero ducimus quo aut! Ullam, obcaecati beatae.  Aliquam, veniam deserunt ratione ad omnis porro blanditiis aperiam, odit quae doloremque unde. Quidem corporis, quam aspernatur. itaque praesentium enim omnis ullam eos illo fuga? Cum possimus itaque at explicabo eaque tenetur voluptate doloremque unde.</p>
+                       </div>
+                        <!--Paragraph-->
+                       
+                    </div>
+                    <!--Heading - Paragraph-->
+                     <!--Data-->
+                    <div class="data d-flex w-100 my-4">
+                       <!--Data-Left-Inside-->
+                       <div class="d-flex align-items-center w-50">
+                        <!--Eyes-->
+                        <div class="heading-eyes d-inline-block mx-4">
+                            <i class="fas fa-eye float-left"></i>
+                            <p class="ml-2 float-left mb-0">124</p>
+                        </div>
+                        <!--Comment-->
+                        <div class="heading-comment d-inline-block mx-4">
+                            <i class="fas fa-comment-dots float-left"></i>
+                            <p class="ml-2 float-left mb-0">48</p>
+                        </div>
+                        <!--Calendar-->
+                        <div class="heading-date d-inline-block mx-4">
+                             <i class="far fa-calendar-check float-left"></i>
+                             <p class="ml-2 float-left mb-0">01.11.2020</p>
+                        </div>  
+                        <!--Calendar-->
+                         </div> 
+                       <!--Data-Left-Inside-->
+                        
+                       <!--Data-Right-Inside-->
+                       <div class="data-right d-flex w-50 justify-content-start flex-row-reverse">
+                            <img src="../img/heart.svg" alt="" class="mx-4">
+                            <img src="../img/share.svg" alt="" class="ml-4">
+                            <img src="../img/award.svg" alt="">
+                  
+                        </div>
+                       <!--Data-Right-Inside-->
+                    </div>
+                    <!--Data-->
+                    <!--Line-->
+                    <div class="first-line mb-4"></div>
+                    <!--User Comment Heading-->
+                    <div class="user-comment-heading my-5">
+                         <h3>Yorumlar</h3>
+                         <div class="comment-line"></div>
+                    </div>
+                    <!--User Comment Card-->
+                    <div class="w-100">
+                    <div class="user-comment-card p-3 my-3">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                       
+                        <!--Followed Button-->
+                        <div class="followed-button mt-3 float-right">
+                            <a href="#">Takip Ediliyor</a>
+                        </div>
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment-->
+                    <div class="comment-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nam eveniet minus expedita quasi excepturi, molestiae voluptate dolorem iure, enim tenetur porro aliquid deserunt dolore? Dolores illo molestiae cupiditate veniam.</p>
+                    </div>
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Footer Like Answer Date-->
+                    <div class="comment-footer d-flex">
+                       <div class="d-flex w-100 justify-content-between">
+                           
+                            <!--Like-->
+                            <div class="like d-flex ">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/heart.svg" alt="">
+                                <p class="mb-0 ml-3">Beğen (25)</p>
+                                </a>
+                            </div>
+                            
+                              <!--Answer-->
+                            <div class="answer d-flex">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/answer.svg" alt="">
+                                <p class="mb-0 ml-3">Cevapla (42)</p>
+                                </a>
+                            </div>
+                            
+                            
+                              <!--Date-->
+                            <div class="date d-flex align-items-center">
+                               <img src="../img/date.svg" alt="">
+                               <p class="mb-0 ml-3">01.11.2020</p> 
+                            </div>
+                            
+                            
+                         
+                        </div>
+                    </div>
+                    <!--Comment Footer Like Answer Date-->
+                    
+                 
+                    </div>
+                    </div>
+                    <!--User Comment Card 2-->
+                    <div class="w-100">
+                    <div class="user-comment-card p-3 my-3 float-right">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                       
+                        <!--Followed Button-->
+                        <div class="followed-button mt-3 float-right">
+                            <a href="#">Takip Ediliyor</a>
+                        </div>
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment-->
+                    <div class="comment-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nam eveniet minus expedita quasi excepturi, molestiae voluptate dolorem iure, enim tenetur porro aliquid deserunt dolore? Dolores illo molestiae cupiditate veniam.</p>
+                    </div>
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Footer Like Answer Date-->
+                    <div class="comment-footer d-flex">
+                       <div class="d-flex w-100 justify-content-between">
+                           
+                            <!--Like-->
+                            <div class="like d-flex ">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/heart.svg" alt="">
+                                <p class="mb-0 ml-3">Beğen (25)</p>
+                                </a>
+                            </div>
+                            
+                              <!--Answer-->
+                            <div class="answer d-flex">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/answer.svg" alt="">
+                                <p class="mb-0 ml-3">Cevapla (42)</p>
+                                </a>
+                            </div>
+                            
+                            
+                              <!--Date-->
+                            <div class="date d-flex align-items-center">
+                               <img src="../img/date.svg" alt="">
+                               <p class="mb-0 ml-3">01.11.2020</p> 
+                            </div>
+                            
+                            
+                         
+                        </div>
+                    </div>
+                    <!--Comment Footer Like Answer Date-->
+                    
+                 
+                    </div>
+                    </div>
+                    <!--User Comment Card 3-->
+                    <div class="w-100">
+                    <div class="user-comment-card p-3 my-3 float-right">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                       
+                        <!--Followed Button-->
+                        <div class="followed-button mt-3 float-right">
+                            <a href="#">Takip Ediliyor</a>
+                        </div>
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment-->
+                    <div class="comment-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nam eveniet minus expedita quasi excepturi, molestiae voluptate dolorem iure, enim tenetur porro aliquid deserunt dolore? Dolores illo molestiae cupiditate veniam.</p>
+                    </div>
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Footer Like Answer Date-->
+                    <div class="comment-footer d-flex">
+                       <div class="d-flex w-100 justify-content-between">
+                           
+                            <!--Like-->
+                            <div class="like d-flex ">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/heart.svg" alt="">
+                                <p class="mb-0 ml-3">Beğen (25)</p>
+                                </a>
+                            </div>
+                            
+                              <!--Answer-->
+                            <div class="answer d-flex">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/answer.svg" alt="">
+                                <p class="mb-0 ml-3">Cevapla (42)</p>
+                                </a>
+                            </div>
+                            
+                            
+                              <!--Date-->
+                            <div class="date d-flex align-items-center">
+                               <img src="../img/date.svg" alt="">
+                               <p class="mb-0 ml-3">01.11.2020</p> 
+                            </div>
+                            
+                            
+                         
+                        </div>
+                    </div>
+                    <!--Comment Footer Like Answer Date-->
+                    
+                 
+                    </div>
+                    </div>
+                    <!--User Comment Card 4-->
+                    <div class="w-100">
+                    <div class="user-comment-card p-3 my-3 float-left">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                       
+                        <!--Followed Button-->
+                        <div class="followed-button mt-3 float-right">
+                            <a href="#">Takip Ediliyor</a>
+                        </div>
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment-->
+                    <div class="comment-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nam eveniet minus expedita quasi excepturi, molestiae voluptate dolorem iure, enim tenetur porro aliquid deserunt dolore? Dolores illo molestiae cupiditate veniam.</p>
+                    </div>
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Footer Like Answer Date-->
+                    <div class="comment-footer d-flex">
+                       <div class="d-flex w-100 justify-content-between">
+                           
+                            <!--Like-->
+                            <div class="like d-flex ">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/heart.svg" alt="">
+                                <p class="mb-0 ml-3">Beğen (25)</p>
+                                </a>
+                            </div>
+                            
+                              <!--Answer-->
+                            <div class="answer d-flex">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/answer.svg" alt="">
+                                <p class="mb-0 ml-3">Cevapla (42)</p>
+                                </a>
+                            </div>
+                            
+                            
+                              <!--Date-->
+                            <div class="date d-flex align-items-center">
+                               <img src="../img/date.svg" alt="">
+                               <p class="mb-0 ml-3">01.11.2020</p> 
+                            </div>
+                            
+                            
+                         
+                        </div>
+                    </div>
+                    <!--Comment Footer Like Answer Date-->
+                    
+                 
+                    </div>
+                    </div>
+                    <!--User Comment Card 5-->
+                    <div class="w-100">
+                    <div class="user-comment-card p-3 my-3 float-right">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                       
+                        <!--Followed Button-->
+                        <div class="followed-button mt-3 float-right">
+                            <a href="#">Takip Ediliyor</a>
+                        </div>
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment-->
+                    <div class="comment-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nam eveniet minus expedita quasi excepturi, molestiae voluptate dolorem iure, enim tenetur porro aliquid deserunt dolore? Dolores illo molestiae cupiditate veniam.</p>
+                    </div>
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Footer Like Answer Date-->
+                    <div class="comment-footer d-flex">
+                       <div class="d-flex w-100 justify-content-between">
+                           
+                            <!--Like-->
+                            <div class="like d-flex ">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/heart.svg" alt="">
+                                <p class="mb-0 ml-3">Beğen (25)</p>
+                                </a>
+                            </div>
+                            
+                              <!--Answer-->
+                            <div class="answer d-flex">
+                               <a href="#" class="d-flex align-items-center">
+                                <img src="../img/answer.svg" alt="">
+                                <p class="mb-0 ml-3">Cevapla (42)</p>
+                                </a>
+                            </div>
+                            
+                            
+                              <!--Date-->
+                            <div class="date d-flex align-items-center">
+                               <img src="../img/date.svg" alt="">
+                               <p class="mb-0 ml-3">01.11.2020</p> 
+                            </div>
+                            
+                            
+                         
+                        </div>
+                    </div>
+                    <!--Comment Footer Like Answer Date-->
+                    
+                 
+                    </div>
+                    </div>
+                    <!--User Comment Card 6 Comment Input-->
+                    <div class="w-100 mb-5">
+                    <div class="user-comment-card p-3 my-3 float-left">
+                    <!--User Comment Header-->
+                    <div class="user-comment-header">
+                        <!--User Comment IMG-->
+                        <div class="user-comment-img d-flex float-left">
+                        <img src="../img/face.jpg" alt="">
+                        </div>
+                        <!--User Comment Name And User-->
+                        <div class="comment-name d-inline-block">
+                        <h3 class="d-inline-block ml-4">John Deck</h3> <br>
+                        <small class="d-block ml-4">User</small>
+                        </div>
+                        <!--Comment Social Media İcons-->
+                        <div class="comment-social-media d-flex justify-content-between mt-4">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        </div>    
+                    <!--Line-->
+                    <div class="first-line my-3"></div>
+                    <!--Comment Input-->
+                    <div class="comment-textarea">
+                    <textarea name="comment" id="Comment" cols="0" rows="0" placeholder="Lütfen Yorum Yapınız."></textarea>
+                    <input type="submit" class="float-right">
+                    </div>
+                    <!--Comment Input-->
+                
+                
+                    
+                    
+                 
+                    </div>
+                    </div>
+                    
+            
+                </div>
+                
+                
+                <!--Profile Card Layout-->
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                    <!--Profile Card-->
+                    <div class="detail-page-profile-card p-3">
+                      
+
+                        <!--Profile Card Image-->
+                        <div class="profile-card-img float-left">
+                            <img src="../img/face.jpg" alt="">
+                            <div class="profile-card-online-circle"></div>
+                        </div>
+                        <!--Profile Card User Name-->
+                        <div class="user-name float-left">
+                            <h3 class="ml-3">John Deck</h3>
+                            <small class="ml-3">Authors</small>
+                            <!--Follower + Total Text-->
+                            <div class="follower ml-3 p-2 d-flex align-items-center">
+                                <!--Follow-->
+                               <div class="follow d-flex">
+                                    <i class="fas fa-user float-left"></i>
+                                    <p class="mb-0 ml-1 float-right">7486</p>
+                                </div>
+                                <!--Line-->
+                                <div class="follower-line mx-2"></div>
+                                <!--Cloud-->
+                                <div class="total-text d-flex ml-2">
+                                    <i class="fas fa-cloud float-left"></i>
+                                    <p class="mb-0 ml-1 float-right">7486</p>
+                                </div>
+                            </div>
+                            <!--Follower + Total Text-->
+                        </div>
+                        <!--Line-->
+                        <div class="profile-line d-flex"></div>
+                        <!--Profile Social Media-->
+                        <div class="detail-page-profile-social-media w-100 d-flex justify-content-between my-3">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i> 
+                        </div>
+                        <!--Line-->
+                        <div class="profile-line d-flex"></div>
+                        <!--Follow Me Button-->
+                        <div class="follow-button d-flex w-100 mt-3 mb-0 justify-content-center">
+                            <a href="#">Takip Et</a>
+                        </div>
+                        
+                        
+                       
+                    </div>
+                    <!--Profile Card-->
+                    
+                    <!--Authors Heading-->
+                    <div class="authors-heading my-4 text-center">
+                        <h3>Yazarın Popüler <br> Tahminleri</h3>
+                    </div>
+                    <!--Authors Heading-->
+                    
+                    <!--Authors Popular Text-->
+                    <div class="authors-popular-text p-3 mt-5">
+                        <div class="star">
+                           <div class="star-up d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star fa-2x"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eaque doloribus eum aliquam, a itaque sunt quibusdam, fuga blanditiis nesciunt similique voluptas molestias, unde, voluptates.</p>
+                        <!--Line-->
+                       <div class="profile-line d-flex"></div>
+                       <!--Authors Popular Text Data-->
+                       <div class="authors-popular-text-data my-2">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                        <!--Eyes-->
+                        <div class="heading-eyes d-inline-block">
+                            <i class="fas fa-eye float-left"></i>
+                            <p class="ml-2 float-left mb-0">124</p>
+                        </div>
+                        <!--Comment-->
+                        <div class="heading-comment d-inline-block">
+                            <i class="fas fa-comment-dots float-left"></i>
+                            <p class="ml-2 float-left mb-0">48</p>
+                        </div>
+                        <!--Calendar-->
+                        <div class="heading-date d-inline-block">
+                             <i class="far fa-calendar-check float-left"></i>
+                             <p class="ml-2 float-left mb-0">01.11.2020</p>
+                        </div>  
+                        <!--Calendar-->
+                         </div> 
+                            
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                    <!--Authors Popular Text-->
+                    
+                    <!--Authors Popular Text 2-->
+                    <div class="authors-popular-text p-3 mt-5">
+                        <div class="star">
+                           <div class="star-up d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star fa-2x"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eaque doloribus eum aliquam, a itaque sunt quibusdam, fuga blanditiis nesciunt similique voluptas molestias, unde, voluptates.</p>
+                        <!--Line-->
+                       <div class="profile-line d-flex"></div>
+                       <!--Authors Popular Text Data-->
+                       <div class="authors-popular-text-data my-2">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                        <!--Eyes-->
+                        <div class="heading-eyes d-inline-block">
+                            <i class="fas fa-eye float-left"></i>
+                            <p class="ml-2 float-left mb-0">124</p>
+                        </div>
+                        <!--Comment-->
+                        <div class="heading-comment d-inline-block">
+                            <i class="fas fa-comment-dots float-left"></i>
+                            <p class="ml-2 float-left mb-0">48</p>
+                        </div>
+                        <!--Calendar-->
+                        <div class="heading-date d-inline-block">
+                             <i class="far fa-calendar-check float-left"></i>
+                             <p class="ml-2 float-left mb-0">01.11.2020</p>
+                        </div>  
+                        <!--Calendar-->
+                         </div> 
+                            
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                    <!--Authors Popular Text 2-->
+                    
+                     <!--Authors Popular Text 3-->
+                    <div class="authors-popular-text p-3 mt-5">
+                        <div class="star">
+                           <div class="star-up d-flex justify-content-center align-items-center">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star fa-2x"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eaque doloribus eum aliquam, a itaque sunt quibusdam, fuga blanditiis nesciunt similique voluptas molestias, unde, voluptates.</p>
+                        <!--Line-->
+                       <div class="profile-line d-flex"></div>
+                       <!--Authors Popular Text Data-->
+                       <div class="authors-popular-text-data my-2">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                        <!--Eyes-->
+                        <div class="heading-eyes d-inline-block">
+                            <i class="fas fa-eye float-left"></i>
+                            <p class="ml-2 float-left mb-0">124</p>
+                        </div>
+                        <!--Comment-->
+                        <div class="heading-comment d-inline-block">
+                            <i class="fas fa-comment-dots float-left"></i>
+                            <p class="ml-2 float-left mb-0">48</p>
+                        </div>
+                        <!--Calendar-->
+                        <div class="heading-date d-inline-block">
+                             <i class="far fa-calendar-check float-left"></i>
+                             <p class="ml-2 float-left mb-0">01.11.2020</p>
+                        </div>  
+                        <!--Calendar-->
+                         </div> 
+                            
+                        </div>
+                        
+                        
+                        
+                        
+                    </div>
+                    <!--Authors Popular Text 3-->
+                    
+                    <!--More Button-->
+                    <div class="more-button my-4 text-center">
+                        <a href="#">Tümünü Gör</a>
+                    </div>
+                   
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!--Footer-->
+    <footer id="footer">
+        <!--Container-->
+        <div class="container">s
+            <!--Row-->
+            <div class="row">
+                <!--Logo About Us Text-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 footer-responsive">
+                    <a href="#" class="footer-logo">tahminkulübü.com</a>
+                    <h3 class="mt-5">About Us</h3>
+                    <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum numquam facilis veritatis fugiat corporis ipsam nemo fuga at architecto distinctio.</p>
+                </div>
+
+                <!--Information-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Information</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">About Us</a></li>
+                        <li class="my-2"><a href="#">Predictions</a></li>
+                        <li class="my-2"><a href="#">Authors</a></li>
+                        <li class="mt-2"><a href="#">Contact Us</a></li>
+                    </ul>
+
+
+
+                </div>
+
+                <!--Authors -->
+
+                <div class="col-lg-4- col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Authors</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Latest Authors.</a></li>
+                        <li class="my-2"><a href="#">Popular Cities. Us</a></li>
+                        <li class="my-2"><a href="#">Popular Authors.</a></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/master.png" alt=""></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/VISA.png" alt=""></li>
+
+                    </ul>
+
+                </div>
+
+                <!--Copyright-->
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="copyright text-center d-flex justify-content-center">
+                        <i class="far fa-copyright fa-2x mx-3"></i>
+                        <p>Copyright 2019-2020 Tüm Hakları Saklıdır</p>
+                    </div>
+                </div>
+            </div>
+            <!--Row-->
+        </div>
+        <!--Container-->
+    </footer>
+    <!--Footer-->
+
+
+    <!--Script-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+
+</body></html>

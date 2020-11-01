@@ -1,0 +1,2282 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+/*Header Background*/
+
+.header {
+    margin-top: 7.5rem;
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    background: url(../img/homepageheader.png);
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+/*Header Heading*/
+
+.heading {
+    margin-top: 5%;
+    display: block;
+}
+
+h1 {
+    font-size: 4.6rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.headercomment {
+    width: 50%;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+/*Header Search*/
+
+#header form {
+    margin-top: 4%;
+}
+
+.form-control {
+    height: 7rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.1px;
+    color: #9D9D9D;
+    padding: 0 1rem;
+    flex: 500px 0 0 !important;
+    background-clip: inherit;
+
+}
+
+.location {
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 5%;
+    color: #3AAFA9;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.location:hover {
+    color: #3AAFA9;
+}
+
+.home-page-search {
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: #3AAFA9;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.home-page-search:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+/*Heading Veri*/
+
+.veri {
+    width: auto;
+    height: 6rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-top: 14%;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.veri img {
+    color: #474747;
+}
+
+.veri p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #474747;
+}
+
+/* Popular Authors + Popular City Heading */
+#popular-authors-bg {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+
+}
+
+.popular-authors h3 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10rem;
+    color: #3A3A3A;
+
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-1 {
+    width: 9rem;
+    height: 0.3rem;
+    background-color: #3A3A3A;
+    display: inline-block;
+
+
+}
+
+.authors-star {
+    display: flex;
+    margin: 0rem 1rem;
+
+}
+
+.authors-star i {
+    color: #FFC014;
+}
+
+.line-2 {
+    width: 9rem;
+    height: 0.3rem;
+    background-color: #3A3A3A;
+    display: inline-block;
+}
+
+/* Popular Authors Card Design */
+
+.card-1 {
+    background-color: #fff;
+    height: 85%;
+    border-radius: 1rem;
+    margin-top: 8rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.card-1-link,
+.card-1-link:hover {
+    color: #3a3a3a;
+}
+
+.popular-authors-star i {
+    font-size: 1.5rem;
+    color: #FFC014;
+}
+
+.send-card-button a {
+    color: #3a3a3a !important;
+    transition: all ease .3s;
+}
+
+.send-card-button a:hover {
+    color: #3aaf9a !important;
+}
+
+.user-name .success {
+    font-size: 1.3rem;
+}
+
+.success i {
+    font-size: 1.3rem;
+    color: #FFC014;
+}
+
+.responsive-total-text {
+    width: 2.7rem;
+
+}
+
+.user-name h3 {
+    font-size: 23px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.user-name small {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #B5B5B5;
+}
+
+.follower {
+    width: 9rem;
+    height: 3rem;
+    background-color: #3AAFA9;
+    border-radius: 0.5rem;
+}
+
+.follower i {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.follower p {
+    font-size: 1.9rem;
+    font-family: 'Nunito';
+    color: #fff;
+
+}
+
+.user-name {
+    width: 100%;
+}
+
+.user-img-size {
+    width: 10rem;
+    height: 10rem;
+    background-color: #000;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.online-circle {
+    width: 2rem;
+    height: 2rem;
+    background-color: #17E08F;
+    border-radius: 50%;
+    position: relative;
+    top: -2rem;
+    left: 7rem;
+}
+
+.card-line-popular-authors {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #f4f4f4;
+}
+
+.card-line {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #f4f4f4;
+
+}
+
+.popular-authors-text p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.popular-authors-text span {
+    font-weight: 600;
+    color: #484848;
+}
+
+.follow-button a {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3AAFA9;
+    background-color: transparent;
+    border: 3px solid #3AAFA9;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    transition: all ease .3s;
+}
+
+.follow-button a:hover {
+    color: #fff;
+    background-color: #3aafa9;
+    text-decoration: none;
+}
+
+.social-media-icons i {
+    margin-right: 2rem;
+}
+
+.social-media-icons i:nth-child(1) {
+    color: #D6D6D6;
+}
+
+.social-media-icons i:nth-child(2) {
+    color: #1DA1F2;
+}
+
+.social-media-icons i:nth-child(3) {
+    color: #4267B2;
+}
+
+.social-media-icons i:nth-child(4) {
+    color: #FF4431;
+}
+
+.social-media-icons i:nth-child(5) {
+    color: #D6D6D6;
+}
+
+.social-media-icons i:nth-child(6) {
+    color: #FFC014;
+    margin-right: 0px;
+}
+
+/*Last Authors Text*/
+#last-authors-text {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    background-color: #f4f4f4;
+}
+
+.last-authors-card-bg {
+    background-color: #fff;
+    height: 33rem;
+    border-radius: 1rem;
+    margin-top: 8rem;
+
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.last-authors-card {
+    height: 40%;
+}
+
+.last-authors-h3 {
+    font-size: 23px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.last-authors-small {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #B5B5B5;
+}
+
+.follower-last-authors-text {
+    width: 11rem;
+    height: 3rem;
+    background-color: #3AAFA9;
+    border-radius: 0.5rem;
+}
+
+.follower-last-authors-text i {
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.follower-last-authors-text p {
+    font-size: 1.9rem;
+    font-family: 'Nunito';
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 1px !important;
+}
+
+.follower-last-authors {
+    margin-top: 1rem;
+}
+
+.heart {
+    color: #FFA8A8;
+    font-size: 2.3rem;
+}
+
+.heart:hover {
+    color: #FE6666;
+}
+
+.send-icon {
+    font-size: 2.3rem;
+}
+
+.award-card {
+    position: absolute;
+    left: 68%;
+}
+
+.award {
+    width: 2.3rem;
+}
+
+.award-card p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2BCB60;
+
+}
+
+.last-authors-text-paragraph {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.eyes {
+    color: #C8C8C8;
+}
+
+.eyes i {
+    font-size: 2rem;
+}
+
+.eyes p {
+    font-size: 1.7rem;
+}
+
+.comment {
+    color: #C8C8C8;
+}
+
+.comment i {
+    font-size: 2rem;
+}
+
+.comment p {
+    font-size: 1.7rem;
+}
+
+.dollar {
+    color: #C8C8C8;
+}
+
+.dollar i {
+    font-size: 2rem;
+}
+
+.dollar p {
+    font-size: 1.7rem;
+}
+
+.date {
+    color: #C8C8C8;
+}
+
+.date i {
+    font-size: 2rem;
+}
+
+.date p {
+    font-size: 1.7rem;
+}
+
+.last-authors-link:hover {
+    text-decoration: none;
+}
+
+.comment-link {
+    color: #C8C8C8;
+}
+
+.comment-link:hover {
+    color: #A8D4FF;
+    text-decoration: none;
+}
+
+/*How To Work*/
+
+#howtowork {
+    width: 100%;
+    height: auto;
+}
+
+.howtowork-image {
+    margin-top: 10rem;
+    float: left;
+}
+
+.howtowork-image img {
+    width: 100%;
+}
+
+.howtowork-heading-text {
+    margin-top: 10rem;
+    float: right;
+}
+
+.howtowork-heading-text h3 {
+    font-weight: 600;
+    color: #3A3A3A;
+    font-size: 2.6rem;
+    margin-top: 0;
+
+}
+
+.howtowork-heading-text p {
+    font-weight: 400;
+    color: #3a3a3a;
+    font-size: 1.6rem;
+    line-height: 1.7;
+    letter-spacing: 1.1;
+    margin-bottom: 5rem;
+
+}
+
+.howtowork-heading-text a {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: #3a3a3a;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin-bottom: 2rem !important;
+
+}
+
+/*Popular City CSS*/
+
+#popular-city {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.img-box {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    margin-top: 5rem;
+    position: relative;
+
+}
+
+.img-box p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Nunito';
+    font-weight: 600;
+
+
+}
+
+.img-box .city-background {
+    background-color: #3a3a3a;
+    padding: 1rem 2rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+/* Mobile App Download Section CSS*/
+
+#mobile-app {
+    background-image: linear-gradient(90deg, #3AAFA9 20%, #f4f4f4 8%);
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-app-heading h3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.mobile-app-heading p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.defult-close {
+    display: none;
+}
+
+
+/* Home Page Responsive */
+@media screen and (min-width:375px) {
+
+    /* Header */
+
+    #header {
+        margin-top: 5rem;
+        max-height: 350px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headercomment {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    .form-control {
+        font-size: 1.3rem;
+        flex: 200px 0 0 !important;
+    }
+
+    .location {
+        width: 12%;
+    }
+
+    .veri {
+        margin-top: 25%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .user-name h3 {
+        font-size: 1.7rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .follower {
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 0.3rem;
+    }
+
+    .follower i {
+        font-size: 1.3rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.5rem;
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: none;
+    }
+
+    .defult-close {
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    .responsive-total-text {
+        width: 3rem;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 5.5rem;
+    }
+
+    .social-media-icons {
+        padding: 0.5rem 0rem;
+        margin: 0.5rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+    .follow-button a {
+        font-size: 1.6rem;
+        border: 2px solid #3AAFA9;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 42rem;
+    }
+
+    .last-authors-card {
+        height: 32%;
+    }
+
+    .last-authors-h3 {
+        font-size: 1.8rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.3rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.5rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 7%;
+        top: 36.5%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    .heart {
+        font-size: 2rem;
+        margin-top: 0px !important;
+    }
+
+    .send-icon {
+        font-size: 2rem;
+    }
+
+    .eyes i {
+        font-size: 1.7rem;
+    }
+
+    .eyes p {
+        font-size: 1.5rem;
+    }
+
+    .comment i {
+        font-size: 1.7rem;
+    }
+
+    .comment p {
+        font-size: 1.5rem;
+    }
+
+    .dollar i {
+        font-size: 1.7rem;
+    }
+
+    .dollar p {
+        font-size: 1.5rem;
+    }
+
+    .date i {
+        font-size: 1.7rem;
+    }
+
+    .date p {
+        font-size: 1.5rem;
+    }
+
+    /* Mobile App */
+
+    #mobile-app {
+        background: #f4f4f4;
+    }
+
+    .phone-img {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:414px) {
+
+    /* Header */
+
+    #header {
+        margin-top: 5rem;
+        max-height: 350px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headercomment {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    .form-control {
+        font-size: 1.3rem;
+        flex: 200px 0 0 !important;
+    }
+
+    .location {
+        width: 20%;
+    }
+
+    .veri {
+        margin-top: 27%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 1.7rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.3rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.5rem;
+        font-family: 'Nunito';
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: none;
+    }
+
+    .defult-close {
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+
+    .responsive-total-text {
+        width: 3rem;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 5.5rem;
+    }
+
+    .social-media-icons {
+        padding: 0.5rem 0rem;
+        margin: 0.5rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+
+    .follow-button a {
+        font-size: 1.6rem;
+        border: 2px solid #3AAFA9;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 40.5rem;
+    }
+
+    .last-authors-card {
+        height: 33%;
+    }
+
+    .last-authors-h3 {
+        font-size: 1.8rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.3rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.5rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 7%;
+        top: 37%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    .heart {
+        font-size: 2rem;
+        margin-top: 0px !important;
+    }
+
+    .send-icon {
+        font-size: 2rem;
+    }
+
+    .eyes i {
+        font-size: 1.7rem;
+    }
+
+    .eyes p {
+        font-size: 1.5rem;
+    }
+
+    .comment i {
+        font-size: 1.7rem;
+    }
+
+    .comment p {
+        font-size: 1.5rem;
+    }
+
+    ,
+
+    .dollar i {
+        font-size: 1.7rem;
+    }
+
+    .dollar p {
+        font-size: 1.5rem;
+    }
+
+    .date i {
+        font-size: 1.7rem;
+    }
+
+    .date p {
+        font-size: 1.5rem;
+    }
+
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background: #f4f4f4;
+    }
+
+    .phone-img {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:576px) {
+
+    /* Header */
+
+    #header {
+        margin-top: 5rem;
+        max-height: 350px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headercomment {
+        width: 90%;
+        font-size: 1.4rem;
+    }
+
+    .form-control {
+        font-size: 1.3rem;
+        flex: 200px 0 0 !important;
+    }
+
+    .location {
+        width: 20%;
+    }
+
+    .veri {
+        margin-top: 18.5%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 8rem;
+        height: 8rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 1.7rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.3rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 15px;
+        font-family: 'Nunito';
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: none;
+    }
+
+    .defult-close {
+        display: inline-block;
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+
+    .responsive-total-text {
+        width: 3rem;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 5.5rem;
+    }
+
+    .social-media-icons {
+        padding: 0.5rem 0rem;
+        margin: 0.5rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+
+    .follow-button a {
+        font-size: 1.6rem;
+        border: 2px solid #3AAFA9;
+        padding: 0.5rem 1rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 33rem;
+    }
+
+    .last-authors-card {
+        height: 32%;
+    }
+
+    .last-authors-h3 {
+        font-size: 1.8rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.3rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.5rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 68%;
+        top: 21%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    .heart {
+        font-size: 2.2rem;
+        margin-top: 0px !important;
+    }
+
+    .send-icon {
+        font-size: 2.2rem;
+    }
+
+    .eyes i {
+        font-size: 2rem;
+    }
+
+    .eyes p {
+        font-size: 1.8rem;
+    }
+
+    .comment i {
+        font-size: 2rem;
+    }
+
+    .comment p {
+        font-size: 1.8rem;
+    }
+
+    ,
+
+    .dollar i {
+        font-size: 2rem;
+    }
+
+    .dollar p {
+        font-size: 1.8rem;
+    }
+
+    .date i {
+        font-size: 2rem;
+    }
+
+    .date p {
+        font-size: 1.8rem;
+    }
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background: #f4f4f4;
+    }
+
+    .phone-img {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    /* Header */
+
+    #header {
+        margin-top: 5.5rem;
+        max-height: 400px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headercomment {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        flex: 500px 0 0 !important;
+    }
+
+    .location {
+        width: 10%;
+    }
+
+    .veri {
+        margin-top: 17%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 2.2rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: inline-block;
+        margin-top: -1rem;
+    }
+
+    .defult-close {
+        display: none;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 6.5rem;
+    }
+
+    .social-media-icons {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 2rem;
+        font-size: 3rem;
+    }
+
+
+    .follow-button a {
+        font-size: 2rem;
+        border: 3px solid #3AAFA9;
+        padding: 1rem 2rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+
+    /*How to Work */
+    .howtowork-image {
+        display: none;
+    }
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 30rem;
+    }
+
+    .last-authors-card {
+        height: 40%;
+    }
+
+    .last-authors-h3 {
+        font-size: 1.8rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 11rem;
+        height: 3rem;
+        margin-top: 2rem !important;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.7rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.8rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 75%;
+        top: 23%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    .heart {
+        font-size: 2.2rem;
+        margin-top: 0px !important;
+    }
+
+    .send-icon {
+        font-size: 2.2rem;
+    }
+
+    .eyes i {
+        font-size: 2rem;
+    }
+
+    .eyes p {
+        font-size: 1.8rem;
+    }
+
+    .comment i {
+        font-size: 2rem;
+    }
+
+    .comment p {
+        font-size: 1.8rem;
+    }
+
+    ,
+
+    .dollar i {
+        font-size: 2rem;
+    }
+
+    .dollar p {
+        font-size: 1.8rem;
+    }
+
+    .date i {
+        font-size: 2rem;
+    }
+
+    .date p {
+        font-size: 1.8rem;
+
+    }
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background-image: linear-gradient(90deg, #3AAFA9 20%, #f4f4f4 8%);
+    }
+
+    .phone-img {
+        display: inline-block;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+
+    /* Header */
+
+    #header {
+
+        max-height: 450px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .headercomment {
+        width: 50%;
+        font-size: 1.7rem;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        flex: 600px 0 0 !important;
+    }
+
+    .location {
+        width: 7%;
+    }
+
+    .veri {
+        margin-top: 15%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 17px;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 3px;
+        margin-top: 1.8rem !important;
+    }
+
+    .follower i {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 18px;
+        font-family: 'Nunito';
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: inline-block;
+    }
+
+    .defult-close {
+        display: none;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 6.5rem;
+    }
+
+    .social-media-icons {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+
+    .follow-button a {
+        font-size: 2rem;
+        border: 2px solid #3AAFA9;
+        padding: 1rem 2rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+
+
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 35rem;
+    }
+
+    .last-authors-card {
+        height: 35%;
+    }
+
+    .last-authors-h3 {
+        font-size: 2.2rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.3rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.5rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 63%;
+        top: 20.5%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    .heart {
+        font-size: 2.2rem;
+        margin-top: 0px !important;
+    }
+
+    .send-icon {
+        font-size: 2.2rem;
+    }
+
+    .eyes i {
+        font-size: 2rem;
+    }
+
+    .eyes p {
+        font-size: 1.8rem;
+    }
+
+    .comment i {
+        font-size: 2rem;
+    }
+
+    .comment p {
+        font-size: 1.8rem;
+    }
+
+    ,
+
+    .dollar i {
+        font-size: 2rem;
+    }
+
+    .dollar p {
+        font-size: 1.8rem;
+    }
+
+    .date i {
+        font-size: 2rem;
+    }
+
+    .date p {
+        font-size: 1.8rem;
+    }
+
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background-image: linear-gradient(90deg, #3AAFA9 17%, #f4f4f4 8%);
+    }
+
+    .phone-img {
+        display: inline-block;
+    }
+
+
+}
+
+@media screen and (min-width:1140px) {
+
+    /* Header */
+
+    #header {
+        max-height: 475px;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    .headercomment {
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        flex: 700px 0 0 !important;
+    }
+
+    .location {
+        width: 8%;
+    }
+
+    .veri {
+        margin-top: 15%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 26px;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.8rem;
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: inline-block;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 6.5rem;
+    }
+
+    .social-media-icons {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+
+    .follow-button a {
+        font-size: 2rem;
+        border: 2px solid #3AAFA9;
+        padding: 1rem 2rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+
+    /* How To Work */
+
+    .howtowork-image {
+        display: inline-block;
+    }
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background-image: linear-gradient(90deg, #3AAFA9 20%, #f4f4f4 8%);
+    }
+
+    .phone-img {
+        display: inline-block;
+    }
+
+
+}
+
+@media screen and (min-width:1366px) {
+
+    /* Header */
+
+    #header {
+        max-height: 500px;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    .headercomment {
+        width: 70%;
+        font-size: 2rem;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        flex: 600px 0 0 !important;
+    }
+
+    .location {
+        font-size: 1.5rem;
+        width: 8%;
+    }
+
+    .veri {
+        margin-top: 16.5%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 1.7rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 9rem;
+        height: 3rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.8rem;
+        font-family: 'Nunito';
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: inline-block;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 6.5rem;
+    }
+
+    .social-media-icons {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.4rem;
+    }
+
+
+    .follow-button a {
+        font-size: 2rem;
+        border: 2px solid #3AAFA9;
+        padding: 1rem 2rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+    /* Last Authors Text Card */
+
+    .last-authors-card-bg {
+        height: 33rem;
+    }
+
+    .last-authors-card {
+        height: 37%;
+    }
+
+    .last-authors-h3 {
+        font-size: 2.2rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+    .last-authors-small {
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #B5B5B5;
+    }
+
+    .follower-last-authors-text {
+        width: 9.5rem;
+        height: 2.5rem;
+    }
+
+    .follower-last-authors-text i {
+        font-size: 1.3rem;
+        margin-top: 1px !important;
+
+    }
+
+    .follower-last-authors-text p {
+        font-size: 1.5rem;
+        margin-top: 2px !important;
+    }
+
+    .follower-last-authors {
+        margin-top: 1rem;
+    }
+
+    .award-card {
+        position: absolute;
+        left: 68%;
+        top: 21.5%
+    }
+
+    .award {
+        width: 2.3rem;
+    }
+
+    /* Mobile App */
+
+    #mobile-app {
+        background-image: linear-gradient(90deg, #3AAFA9 20%, #f4f4f4 8%);
+    }
+
+    .phone-img {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+
+    /* Header */
+
+    #header {
+        margin-top: 6rem;
+        max-height: 550px;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    .headercomment {
+        width: 90%;
+        font-size: 2.2rem;
+    }
+
+    .form-control {
+        font-size: 2rem;
+        height: 9rem;
+        flex: 700px 0 0 !important;
+    }
+
+    .location {
+        width: 8%;
+    }
+
+    .home-page-search {
+        padding: 0rem 2.5rem;
+    }
+
+    .veri {
+        margin-top: 18.5%;
+    }
+
+    .veri img {
+        color: #474747;
+    }
+
+    .veri p {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #474747;
+    }
+
+
+    /* Popular Authors Card */
+
+    .user-img-size {
+        width: 9rem;
+        height: 9rem;
+    }
+
+
+    .user-name h3 {
+        font-size: 1.7rem;
+        color: #3A3A3A;
+        font-weight: 600;
+    }
+
+
+    .follower {
+        width: 8rem;
+        height: 3rem;
+        border-radius: 3px;
+    }
+
+    .follower i {
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: 0.1rem;
+    }
+
+    .follower p {
+        font-size: 1.5rem;
+        color: #fff;
+        margin-top: 0.2rem !important;
+
+    }
+
+    .success {
+        display: inline-block;
+    }
+
+    .online-circle {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2rem;
+        left: 6.5rem;
+    }
+
+    .social-media-icons {
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+
+    }
+
+    .social-media-icons i {
+        margin-right: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+
+    .follow-button a {
+        font-size: 2.2rem;
+        border: 2px solid #3AAFA9;
+        padding: 1rem 2rem;
+
+    }
+
+    .follow-button a:hover {
+        color: #fff;
+        background-color: #3aafa9;
+        text-decoration: none;
+    }
+
+    .card-1 {
+        height: 80%;
+    }
+
+
+    /* Mobile App */
+
+    #mobile-app {
+        background-image: linear-gradient(90deg, #3AAFA9 28%, #f4f4f4 8%);
+    }
+
+    .phone-img {
+        display: inline-block;
+    }
+
+}

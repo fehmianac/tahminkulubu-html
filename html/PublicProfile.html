@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arama Sayfası</title>
+    <!--    Mobile Device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Navbar Css-->
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <!--Search Page CSS-->
+    <link rel="stylesheet" href="../css/public-profile.css">
+
+    <!--Card CSS-->
+    <link rel="stylesheet" href="../css/card.css">
+
+    <!--Footer CSS-->
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!--    Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--    Font Awesome-->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top bg-light">
+        <!--Container-->
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand my-2" href="#">tahminkulübü.com</a>
+            <!--Responsive Menu-->
+            <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbars01" aria-controls="navbars01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!--Navigation Menu Item-->
+
+            <div class="collapse navbar-collapse" id="navbars01">
+
+                <ul class="navbar-nav mx-auto my-2">
+
+                    <li class="nav-item "><a class="nav-link mx-4 active" href="#">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Predictions</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Authors</a> </li>
+
+
+
+                </ul>
+
+                <!--Dropdown Menu Account-->
+                <div class="dropdown d-flex">
+
+                    <div class="account-icons float-right">
+                        <a href="#"><i class="fas fa-bell mt-4 mr-3"></i></a>
+                        <a href="#"><i class="fas fa-comment-alt"></i></a>
+                    </div>
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        <!--Dropdown Image-->
+
+                        <div class="account-img float-left p-2">
+                            <img src="../img/face.jpg" alt="">
+                        </div>
+
+                        <!--Dropdown Account Text-->
+                        <p class="d-inline-block mt-2">My Account
+                            <br>
+
+                            <span class="float-left">Jhen Lui </span>
+                        </p>
+
+                    </button>
+
+                    <!--Dropdown Menu-->
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">My Profile</a>
+                        <a class="dropdown-item" href="#">My Settings</a>
+                        <a class="dropdown-item" href="#">My Followers</a>
+                        <a class="dropdown-item" href="#">My Predictions</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+
+
+                </div>
+
+                <!--Dropdown Menu Account-->
+
+            </div>
+
+            <!--Navigation Menu Item-->
+        </div>
+        <!--Container-->
+    </nav>
+    <!--Navigation Bar-->
+
+    <!-- User Profile Card-->
+    <section id="user-profile-card">
+
+        <!--Container-->
+        <div class="container">
+            <!--Row-->
+            <div class="row">
+                <!--User Card Profile-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                    <!--User Card Profile Inside-->
+                    <div class="user-profile-card p-3">
+                        <!--Profile Card-->
+                        <div class="img-heading-sendmessage">
+                            <!--User Card Profile Image -->
+                            <div class="user-profile-card-img d-inline-block float-left">
+                                <img src="../img/face.jpg" alt="">
+                                <div class="user-profile-card-online-circle"></div>
+                            </div>
+                            <!--User Card Profile Name And Surname-->
+                            <div class="name-surname-authors float-left ml-3 d-inline-block">
+                                <a href="#"><i class="fas fa-paper-plane fa-2x float-right"></i></a>
+                                <h3 class="user-profile-card-h3">John Deck</h3>
+                                <small>Authors</small>
+                            </div>
+                            <!--User Card Profile Follow and Follower-->
+                            <div class="follow-follower d-inline-block">
+                                <div class="follow float-left">
+                                    <p class="ml-3 mt-3">1240</p>
+                                    <small class="ml-3">Takip</small>
+                                </div>
+                        
+                            <!--Follower-->
+
+                            <div class="follower float-left">
+                                    <p class="ml-5 mt-3">1.175.478</p>
+                                    <small class="ml-5">Takipçi</small>
+                                </div>
+
+                            </div>
+                            <!--User-Card-Profile-Line-->
+                            <div class="user-card-profile-line mt-2"></div>
+                            <!--User-Profile-Card-Award-Comment-->
+                            <div class="award-comment my-4 d-flex justify-content-between align-items-start">
+                               
+                                <div class="award-inside d-flex align-items-center">
+                                    <img src="../img/award.svg" alt="">
+                                    <p class="d-inline-block ml-2 mb-0">235</p>
+                                </div>
+                                
+                                <div class="award-inside d-flex align-items-center">
+                                   <img src="../img/comment.svg" alt="" class="mt-1">
+                                    <p class="d-inline-block ml-2 mb-0">125</p>
+                                </div>
+                                
+                                  <div class="award-inside d-flex align-items-center">
+                                    <img src="../img/writing.svg" alt="">
+                                    <p class="d-inline-block ml-2 mb-0">547</p>
+                                </div>
+                                
+                                <div class="award-inside d-flex align-items-center">
+                                   <img src="../img/heart.svg" alt="" class="mt-1">
+                                    <p class="d-inline-block ml-2 mb-0">765</p>
+                                </div>
+                                
+                            </div>
+                            <!--User-Card-Profile-Line-->
+                            <div class="user-card-profile-line"></div>
+                            <!--Follow Button-->
+                            <div class="follow-button d-flex mt-3 justify-content-center">
+                                <a href="#">Takip Et</a>
+                            </div>
+                             <!--User-Card-Profile-Line-->
+                            <div class="user-card-profile-line mt-3"></div>
+                            <!--Short Biography-->
+                            <div class="biography mt-3">
+                                <h2>Kısaca John</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque itaque doloribus ducimus, doloremque. </p>
+                            </div>
+                              <!--User-Card-Profile-Line-->
+                            <div class="user-card-profile-line mt-3"></div>
+                            <!--User Card Social Media Icons-->
+                            <div class="user-card-social-media-icons mt-4 w-100 d-flex justify-content-between">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i>
+                                    
+                                </div>
+                        </div>
+                        <!--Profile Card-->
+                    </div>
+                    <!--User Card Profile Inside-->
+                </div>
+                
+                <!--Authors Text Card , Basic Standart Premium Card , Bank Card-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9  d-inline-block">
+                
+                <!--Text Filter-->
+                <div class="text-filtering d-flex justify-content-between">
+                                <a href="#">
+                                <p> 
+                              
+                                Başarılı Tahminler(23)
+                                </p>
+                                </a>
+                                
+                                <a href="#">
+                                <p>
+                                
+                                Tüm Tahminler(58) 
+                                </p>
+                                </a>
+                                
+                                <a href="#"  class="active">
+                                <p>
+                              
+                                Abonelik Bilgisi 
+                                </p>
+                                </a>
+                                
+                                <a href="#">
+                                <p>
+                               
+                                Ödeme Bilgisi 
+                                </p>
+                                </a>
+                                
+                                
+                            </div>
+                
+                <!--Authors Card Link-->
+                <a href="" class="last-authors-link">  
+                    <!--Authors Text Card-->
+                    <div class="last-authors-card-bg p-3 mb-5">
+                              <!--Authors Card Header-->
+                              <div class="last-authors-card">
+                              <!--Authors Text Card Image-->
+                              <div class="user-img float-left">
+                               
+                                   
+                                <img src="../img/face.jpg" alt="" class="user-img-size d-inline-block mr-4">
+                                 <div class="online-circle"></div>
+
+                                </div>
+                              <!--Message Send Button-->
+                              <div class="send-card-button float-right d-inline-block">
+                                    <a href="#" class="send-icon"><i class="fas fa-paper-plane send-icon"></i></a>
+                                    <a href="#"><i class="fas fa-heart heart ml-4 mt-2"></i></a>
+                              </div>
+                              <!--Name And Authors-->
+                              <h3 class="my-1 last-authors-h3">John Deck</h3>
+                              <small class="d-block last-authors-small">Authors</small>
+                              <!--Follower-->
+                              <div class="follower-last-authors-text d-inline-block mt-4 float-left">
+                                    <i class="fas fa-user p-2 mr-2 ml-1 float-left"></i>
+                                    <p class="float-left mt-1">4578 </p>
+                                    <a href="#"> <i class="fas fa-plus-circle ml-2 p-2"></i></a>
+                              </div>
+                              <!--Social Media İcons-->
+                              <div class="social-media-icons mt-4 float-right">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter "></i>
+                                    <i class="fab fa-facebook-f "></i>
+                                    <i class="fab fa-google "></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-sms"></i>
+                              </div>
+                              <!--Authors Card Header-->
+                              </div>
+                              <!--Authors Text Card Line-->
+                              <div class="card-line-popular-authors"></div>
+                              <!--Authors Text Card Lorem Paragraph-->
+                              <div class="last-authors-text-paragraph">
+                              <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias officiis perspiciatis recusandae tempora dolor obcaecati pariatur asperiores eligendi. Alias, praesentium! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, ipsam earum. Necessitatibus assumenda tempore, in!</p>
+                              </div>
+                              <!--Authors Text Card Line-->
+                              <div class="card-line-popular-authors mb-2"></div>
+                              <!--Authors Card Date Comment Dolar Eyes-->
+                              <div class="information-last-authors-text d-flex justify-content-between mt-3">
+                                    <!--Eyes-->
+                                    <div class="eyes">
+                                        <i class="fas fa-eye float-left"></i>
+                                        <p class="float-left ml-2">4788</p>
+                                    </div>
+                                    <!--Comment-->
+                                    <div class="comment">
+                                        <a href="" class="comment-link">
+                                        <i class="far fa-comment-dots float-left"></i>
+                                        <p class="float-left ml-2">1247</p>
+                                        </a>
+                                    </div>
+                                    <!--Dollar-->
+                                    <div class="dollar">
+                                        <i class="fas fa-dollar-sign float-left"></i>
+                                        <p class="float-left ml-2">478</p>
+                                    </div>
+                                    <!--Date-->
+                                    <div class="date">
+                                        <i class="far fa-calendar-check float-left"></i>
+                                        <p class="float-left ml-2">29.10.2020</p>
+                                    </div>
+                            </div>
+                            <!--Authors Card Date Comment Dolar Eyes-->
+                     
+                </div>
+                    <!--Authors Text Card-->
+                </a>
+                
+                <!--Subscriber Card's And Bank -->
+                <div class="row">
+                    <!--Basic-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <!--Basic Subscriber-->
+                        <div class="basic mb-5">
+                        <!--Basic-Step-Color-->      
+                        <div class="basic-step-color py-2 px-3">
+                            <h6 class="d-flex justify-content-end m-0 p-0">Basic</h6>
+                            <h2>10$</h2>
+                            <p>USD/ 1 Week</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                       <!--Basic-Step-Color-->
+                       <div class="explanation py-2 px-3 mt-2">
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <div class="buy">
+                           <a href="#">Buy</a>
+                           </div>
+                       </div>
+    
+                       </div>
+                <!--Basic Subscriber-->
+                </div>
+                    <!--Basic-Layout-->
+                    
+                    <!--Standart-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <!--Standart Subscriber-->
+                <div class="standart mb-5">
+                   <!--Standart-Step-Color-->      
+                   <div class="standart-step-color py-2 px-3">
+                        <h6 class="d-flex justify-content-end m-0 p-0">Standart</h6>
+                        <h2>18$</h2>
+                        <p>USD/ 2 Week</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+                   <!--Standart-Step-Color-->
+                   
+                   <div class="standart-explanation py-2 px-3 mt-2">
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <div class="buy">
+                       <a href="#">Buy</a>
+                       </div>
+                   </div>
+    
+                </div>
+                <!--Standart Subscriber-->
+                </div>
+                    <!--Standart-Layout-->
+                     
+                    <!--Premium-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <!--Premium Subscriber-->
+                <div class="premium mb-5">
+                   <!--Premium-Step-Color-->      
+                   <div class="premium-step-color py-2 px-3">
+                        <h6 class="d-flex justify-content-end m-0 p-0">Premium</h6>
+                        <h2>25$</h2>
+                        <p>USD/ 1 Month</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+                   <!--Premium-Step-Color-->
+                   
+                   <div class="premium-explanation py-2 px-3 mt-2">
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <div class="buy">
+                       <a href="#">Buy</a>
+                       </div>
+                   </div>
+    
+                </div>
+                <!--Premium Subscriber-->
+                </div>
+                    <!--Premium-Layout-->
+                    
+                     <!--Basic-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <!--Basic Subscriber-->
+                        <div class="basic mb-5">
+                        <!--Basic-Step-Color-->      
+                        <div class="basic-step-color py-2 px-3">
+                            <h6 class="d-flex justify-content-end m-0 p-0">Basic</h6>
+                            <h2>10$</h2>
+                            <p>USD/ 1 Week</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                       <!--Basic-Step-Color-->
+                       <div class="explanation py-2 px-3 mt-2">
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <p>Lorem ipsum dolor sit amet.</p>
+                           <div class="buy">
+                           <a href="#">Buy</a>
+                           </div>
+                       </div>
+    
+                       </div>
+                <!--Basic Subscriber-->
+                </div>
+                    <!--Basic-Layout-->
+                    
+                    <!--Standart-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <!--Standart Subscriber-->
+                <div class="standart mb-5">
+                   <!--Standart-Step-Color-->      
+                   <div class="standart-step-color py-2 px-3">
+                        <h6 class="d-flex justify-content-end m-0 p-0">Standart</h6>
+                        <h2>18$</h2>
+                        <p>USD/ 2 Week</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+                   <!--Standart-Step-Color-->
+                   
+                   <div class="standart-explanation py-2 px-3 mt-2">
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <div class="buy">
+                       <a href="#">Buy</a>
+                       </div>
+                   </div>
+    
+                </div>
+                <!--Standart Subscriber-->
+                </div>
+                    <!--Standart-Layout-->
+                     
+                    <!--Premium-Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                <!--Premium Subscriber-->
+                <div class="premium mb-5">
+                   <!--Premium-Step-Color-->      
+                   <div class="premium-step-color py-2 px-3">
+                        <h6 class="d-flex justify-content-end m-0 p-0">Premium</h6>
+                        <h2>25$</h2>
+                        <p>USD/ 1 Month</p>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                   </div>
+                   <!--Premium-Step-Color-->
+                   
+                   <div class="premium-explanation py-2 px-3 mt-2">
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <p>Lorem ipsum dolor sit amet.</p>
+                       <div class="buy">
+                       <a href="#">Buy</a>
+                       </div>
+                   </div>
+    
+                </div>
+                <!--Premium Subscriber-->
+                </div>
+                    <!--Premium-Layout-->
+                    
+                    <!--Bank Layout-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <!--Bank Card-->
+                        <div class="bank-card mb-5 py-4 px-2 d-flex">
+                            <!--Bank Center-->
+                            <div class="information-bank d-flex flex-column justify-content-center">
+                                <!--Bank Name-->
+                               <h2 class="bank-color mb-4">QNB Finansbank</h2>
+                                <!--Account Number-->
+                               <div class="mt-2">
+                                    <small class="mt-2">Hesap Numarası</small>
+                                    <div class="user-card-profile-line"></div>
+                                    <p class="mt-2 mb-0">1-111-112</p>
+                                </div>
+                            <!--IBAN-->
+                            <div class="mt-3">
+                            <small class="mt-3">IBAN</small>
+                            <div class="user-card-profile-line"></div>
+                            <p class="mt-2 mb-0">TR53 0000 0000 0000 0000 00</p>
+                            </div>
+                            
+                            </div>
+                             <!--Bank Center-->
+                        
+                        </div>
+                        <!--Bank Card-->
+                    </div>
+                    <!--Bank Layout-->
+                    
+                    <!--Bank Layout 2 -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <!--Bank Card-->
+                        <div class="bank-card mb-5 py-4 px-2 d-flex">
+                            <!--Bank Center-->
+                            <div class="information-bank d-flex flex-column justify-content-center">
+                                <!--Bank Name-->
+                               <h2 class="bank-color mb-4">QNB Finansbank</h2>
+                                <!--Account Number-->
+                               <div class="mt-2">
+                                    <small class="mt-2">Hesap Numarası</small>
+                                    <div class="user-card-profile-line"></div>
+                                    <p class="mt-2 mb-0">1-111-112</p>
+                                </div>
+                            <!--IBAN-->
+                            <div class="mt-3">
+                            <small class="mt-3">IBAN</small>
+                            <div class="user-card-profile-line"></div>
+                            <p class="mt-2 mb-0">TR53 0000 0000 0000 0000 00</p>
+                            </div>
+                            
+                            </div>
+                             <!--Bank Center-->
+                        
+                        </div>
+                        <!--Bank Card-->
+                    </div>
+                    <!--Bank Layout 2-->
+                    
+                    <!--Bank Layout 3 -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <!--Bank Card-->
+                        <div class="bank-card mb-5 py-4 px-2 d-flex">
+                            <!--Bank Center-->
+                            <div class="information-bank d-flex flex-column justify-content-center">
+                                <!--Bank Name-->
+                               <h2 class="bank-color mb-4">QNB Finansbank</h2>
+                                <!--Account Number-->
+                               <div class="mt-2">
+                                    <small class="mt-2">Hesap Numarası</small>
+                                    <div class="user-card-profile-line"></div>
+                                    <p class="mt-2 mb-0">1-111-112</p>
+                                </div>
+                            <!--IBAN-->
+                            <div class="mt-3">
+                            <small class="mt-3">IBAN</small>
+                            <div class="user-card-profile-line"></div>
+                            <p class="mt-2 mb-0">TR53 0000 0000 0000 0000 00</p>
+                            </div>
+                            
+                            </div>
+                             <!--Bank Center-->
+                        
+                        </div>
+                        <!--Bank Card-->
+                    </div>
+                    <!--Bank Layout 3-->
+                
+                </div>
+                <!--Subscriber Card's And Bank -->
+              
+                </div>
+                <!--Authors Text Card , Basic Standart Premium Card , Bank Card-->
+                  
+            </div>
+              <!--Row-->
+        </div>
+        <!--Container-->
+    </section>
+    <!-- User Profile Card-->
+
+
+
+
+    <!--Footer-->
+    <footer id="footer">
+        <!--Container-->
+        <div class="container">s
+            <!--Row-->
+            <div class="row">
+                <!--Logo About Us Text-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 footer-responsive">
+                    <a href="#" class="footer-logo">tahminkulübü.com</a>
+                    <h3 class="mt-5">About Us</h3>
+                    <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum numquam facilis veritatis fugiat corporis ipsam nemo fuga at architecto distinctio.</p>
+                </div>
+
+                <!--Information-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Information</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">About Us</a></li>
+                        <li class="my-2"><a href="#">Predictions</a></li>
+                        <li class="my-2"><a href="#">Authors</a></li>
+                        <li class="mt-2"><a href="#">Contact Us</a></li>
+                    </ul>
+
+
+
+                </div>
+
+                <!--Authors -->
+
+                <div class="col-lg-4- col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Authors</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Latest Authors.</a></li>
+                        <li class="my-2"><a href="#">Popular Cities. Us</a></li>
+                        <li class="my-2"><a href="#">Popular Authors.</a></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/master.png" alt=""></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/VISA.png" alt=""></li>
+
+                    </ul>
+
+                </div>
+
+                <!--Copyright-->
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="copyright text-center d-flex justify-content-center">
+                        <i class="far fa-copyright fa-2x mx-3"></i>
+                        <p>Copyright 2019-2020 Tüm Hakları Saklıdır</p>
+                    </div>
+                </div>
+            </div>
+            <!--Row-->
+        </div>
+        <!--Container-->
+    </footer>
+    <!--Footer-->
+
+
+    <!--Script-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+
+</body></html>
