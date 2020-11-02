@@ -420,4 +420,143 @@ small {
 
 /* Public Profile Responsive */
 
-@media screen and (min-width:375px) {}
+@media screen and (min-width:768px) {
+    .text-filtering {
+        margin-top: 0px;
+    }
+    
+    .user-profile-card-img img {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .user-profile-card-online-circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #17E08F;
+    border-radius: 50%;
+    position: relative;
+    top: -1.5rem;
+    left: 3.4rem;
+}
+    
+    .user-profile-card h3 {
+        font-size: 1.7rem;
+    }
+    
+    .name-surname-authors i {
+        font-size: 1.7rem;
+    }
+    
+    .name-surname-authors {
+    width: 68%;
+}
+    
+    .user-profile-card-img {
+    height: 4.5rem;
+}
+     
+    .award-inside {
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+}
+
+    .award-inside p {
+    height: 5rem;
+}
+
+    .award-inside img {
+    width: 2rem;
+
+ 
+
+}
+    
+    .basic-step-color p {
+    font-size: 1.2rem;
+ 
+    }
+    
+    .standart-step-color p {
+    font-size: 1.2rem;
+ 
+    }
+    
+    .premium-step-color p {
+    font-size: 1.2rem;
+ 
+    } 
+  
+}
+
+@media screen and (min-width:992px) {
+    #user-profile-card {
+        padding-top: calc(80px + 2rem);
+    }
+    
+    .text-filtering {
+
+
+    margin-bottom: 2rem;
+
+
+}
+
+.text-filtering a {
+    font-size: 1.7rem;
+    margin: 1.5rem 0.5rem;
+
+}
+}
+
+@media screen and (min-width:1200px) {
+    .user-profile-card {
+             position: -webkit-sticky;
+            position: sticky;
+              top: 15%;
+            margin-bottom: 10%;
+    }
+    .user-profile-card-img img {
+        width: 7rem;
+        height: 7rem;
+    }
+    
+        .user-profile-card-online-circle {
+    width: 2rem;
+    height: 2rem;
+    top: -1.8rem;
+    left: 4.7rem;
+}
+        .user-profile-card h3 {
+        font-size: 2rem;
+    
+}
+    
+        .name-surname-authors {
+    width: 64%;
+}
+    
+        .user-profile-card-img {
+        height: 6rem;
+            }
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (min-width:1920px) {
+     .user-profile-card {
+             position: -webkit-sticky;
+            position: sticky;
+            top: 10.5%;
+            padding-top: calc(80px + 2rem);
+            margin-bottom: 10%;
+            
+    }
+}
+
+
