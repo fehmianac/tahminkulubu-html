@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+small {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #B5B5B5;
+}
+
+/* Detail Page Data Left Inside */
+
+#detail-page-inside {
+    background-color: #f4f4f4;
+    padding-top: calc(50px + 2rem);
+    width: 100%;
+}
+
+.data-w-size {
+    width: 75%;
+}
+
+.data-w-size-25 {
+    width: 25%;;
+}
+
+.data {
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 1rem;
+}
+
+.data i {
+    font-size: 1.7rem;
+    color: #C8C8C8;
+}
+
+.data p {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #c8c8c8; 
+}
+
+/* Detail Page Data Right Inside */
+
+.data-right img {
+    width: 2rem;
+}
+
+/*Heading Paragraph */
+
+.authors-text {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.authors-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.heading  p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2BCB60;
+    
+}
+
+.heading img {
+    width: 2.6rem;
+}
+
+.paragraph p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #929292;
+}
+
+.first-line {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #000;
+    opacity: 0.1
+    
+}
+
+/* More Button */
+.more-button {
+    width: 100%;
+    background-color: #000;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+}
+
+.more-button a {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+@media (min-width:500px) {
+    .data i {
+        font-size: 2.2rem;
+    }
+    
+    .data p {
+        font-size:1.6rem;
+    }
+    
+    .data-right img {
+        width: 2.7rem;
+        }
+}
+
+@media (min-width:576px) {
+    .heading-eyes {
+        margin-right: 2rem;
+    }
+    
+    .heading-comment {
+        margin-right: 2rem;
+    }
+    
+    .heading-date {
+        margin-right: 2rem;
+    }
+
+     
+}
+
+

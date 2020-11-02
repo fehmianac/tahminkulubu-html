@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+small {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #B5B5B5;
+}
+
+/* User Profile Card And Page */
+
+#user-profile-card {
+    background-color: #f4f4f4;
+    padding-top: calc(40px + 3rem);
+}
+
+/* Text Filter Card */
+
+.text-filtering {
+    background-color: #fff;
+    height: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.text-filtering a {
+    color: #3a3a3a;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+
+/* Public Profile Responsive */
+
+@media screen and (min-width:768px) {
+    .text-filtering {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .text-filtering {
+        margin-bottom: 2rem;
+    }
+
+    .text-filtering a {
+        font-size: 1.7rem;
+        margin: 1.5rem 0.5rem;
+
+    }
+
+}

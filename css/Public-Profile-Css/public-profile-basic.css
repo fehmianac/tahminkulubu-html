@@ -1,0 +1,72 @@
+/* Basic Card Css */
+
+.basic {
+    width: 100%;
+    height: 30rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    border-radius: 1rem;
+}
+
+.basic-step-color {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-image: linear-gradient(to bottom, #9b6ff8, #9b6dfd);
+}
+
+.basic-step-color h6 {
+    width: 100%;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.basic-step-color h2 {
+    width: 100%;
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.basic-step-color p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.buy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.explanation p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+.explanation a {
+    font-size: 1.7rem;
+    background-color: #9B6DFD;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all ease .3s;
+}
+
+@media and screen (min-width:768px){
+     .basic-step-color p {
+        font-size: 1.2rem;
+     }
+    
+}

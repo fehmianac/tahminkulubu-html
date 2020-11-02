@@ -1,0 +1,81 @@
+/*Authors Heading */
+.authors-heading h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #3aaf9a;
+}
+
+/* Right Layout  Authors Text */
+.authors-popular-text {
+    width: 100%;
+    height: 20;
+    border-radius: 1rem;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.authors-popular-text h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.authors-popular-text p {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+.authors-popular-text-data p {
+    font-size: 1.36rem;
+    color: #C8C8C8;
+}
+
+.authors-popular-text-data i {
+    font-size: 2rem;
+    color: #C8C8C8;
+}
+
+.star {
+position: relative;
+    color: #FFC014;
+}
+
+.star-up{
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width:576px) {
+    .authors-popular-text-data p {
+        font-size: 1.6rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 2.2rem;
+    }
+    
+}
+
+@media (min-width:992px) {
+    .authors-popular-text-data p {
+        font-size: 1.2rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .authors-popular-text-data p {
+        font-size: 1.4rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 2rem;
+    }
+}
