@@ -33,8 +33,16 @@ small {
 
 #detail-page-inside {
     background-color: #f4f4f4;
-    padding-top: calc(80px + 2rem);
+    padding-top: calc(50px + 2rem);
     width: 100%;
+}
+
+.data-w-size {
+    width: 75%;
+}
+
+.data-w-size-25 {
+    width: 25%;;
 }
 
 .data {
@@ -48,12 +56,12 @@ small {
 }
 
 .data i {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: #C8C8C8;
 }
 
 .data p {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 600;
     color: #c8c8c8; 
 }
@@ -61,7 +69,7 @@ small {
 /* Detail Page Data Right Inside */
 
 .data-right img {
-    width: 2.9rem;
+    width: 2.2rem;
 }
 
 /*Heading Paragraph */
@@ -77,7 +85,7 @@ small {
 }
 
 .authors-text h3 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     font-weight: 600;
     color: #3a3a3a;
 }
@@ -87,6 +95,10 @@ small {
     font-weight: 700;
     color: #2BCB60;
     
+}
+
+.heading img {
+    width: 2.6rem;
 }
 
 .paragraph p {
@@ -110,19 +122,19 @@ small {
 }
 
 .user-comment-heading h3 {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: 700;
     color: #3a3a3a;
 }
 
 .comment-line {
-    width: 10rem;
+    width: 13rem;
     height: 0.2rem;
     background-color: #D9D9D9;
 }
 
 .user-comment-card {
-    width: 80%;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
     background-color: #fff;
@@ -132,8 +144,8 @@ small {
 }
 
 .user-comment-img img {
-    width: 9.5rem;
-    height: 9.5rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
     -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
@@ -142,7 +154,7 @@ small {
 }
 
 .user-comment-header h3 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: #3a3a3a;
 }
@@ -151,8 +163,10 @@ small {
 
 .comment-social-media {
     position: relative;
-    left: 1.4rem;
-    width: 35%;
+    top: 1rem;
+    left: 0rem;
+    width:100%;
+    margin-bottom: 1rem;
 }
 
 .comment-social-media  i {
@@ -187,13 +201,12 @@ small {
 /* Followed Button */
 
 .followed-button a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #fff;
     background-color: #3aaf9a;
-    padding: 1rem 2rem;
-    border-radius: 0.7rem;
-    
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
 }
 
 /* Comment Text */
@@ -207,17 +220,17 @@ small {
 /*Like Answer Date*/
 
 .like p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #FFA8A8;
 }
 
 .answer p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #A8D4FF;
 }
 
 .date p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #C8C8C8;
 }
 
@@ -433,7 +446,6 @@ input[type=submit]:hover {
     color: #707070;
 }
 
-
 .authors-popular-text-data p {
     font-size: 1.2rem;
     color: #C8C8C8;
@@ -468,21 +480,118 @@ position: relative;
     font-size: 2.4rem;
     font-weight: 600;
     color: #fff;
-
-    
 }
 
 
+@media (min-width:500px) {
+    .data i {
+        font-size: 2.2rem;
+    }
+    
+    .data p {
+        font-size:1.6rem;
+    }
+    
+    .data-right img {
+        width: 2.7rem;
+        }
+}
 
+@media (min-width:576px) {
+    .heading-eyes {
+        margin-right: 2rem;
+    }
+    
+    .heading-comment {
+        margin-right: 2rem;
+    }
+    
+    .heading-date {
+        margin-right: 2rem;
+    }
+    
+    .comment-social-media {
+        width: 50%;
+        left: 1.5rem;
+        top: 1.5rem;
+        margin-top: 0rem !important;
+    }
+    
+    .user-comment-img img {
+        width: 9rem;
+        height: 9rem;
+    }
+    
+    .authors-popular-text-data p {
+        font-size: 1.6rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 2.2rem;
+    }
+    
+    .detail-page-profile-social-media i {
+        font-size: 3.5rem;
+    }
+     
+}
 
+@media (min-width:992px){
+    #detail-page-inside {
+        padding-top: calc(80px + 1.5rem);
+    }
+    .profile-card-img img {
+        width: 7rem;
+        height: 7rem;
+    }
+    .profile-card-online-circle {
+    position: relative;
+    top: -2rem;
+    left: 5rem;
+}
+    .profile-card h3 {
+       
+    }
+    .user-name h3 {
+    margin-top: -1rem;
+}
+    .authors-popular-text-data p {
+        font-size: 1.2rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 1.7rem;
+    }
+    
+    .detail-page-profile-social-media i {
+        font-size: 2rem;
+    }
+    
+    .comment-social-media {
+        width: 30%;
+    }
+}
 
-
-
-
-
-
-
-
+@media (min-width:1200px) {
+       .user-name h3 {
+        margin-top: 0rem;
+    }
+    
+        .authors-popular-text-data p {
+        font-size: 1.4rem;
+    }
+    
+    .authors-popular-text-data i {
+        font-size: 2rem;
+    }
+    
+    .user-comment-card  {
+        width: 80%;
+    }
+    
+    
+    
+}
 
 
 
