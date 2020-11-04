@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+html {
+    font-size: 10px;
+}
+.btn {
+    border-radius: 0px;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 4.3rem;
+    color: #fff;
+    font-weight: 
+}
+body {
+    overflow-y: hidden;
+}
+
+/* Background & Left Header*/
+.background-image {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding-top: 80px;   
+}
+
+.background {
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+    background: url("/img/login.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-position: center;
+    display: none;
+}
+
+/*Login*/
+.login-account {
+    width: 100%;
+    height: 45rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.login-heading h3 {
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3aaf9a;
+    letter-spacing: 1.2px;
+    margin-top: 3.5rem;
+}
+
+.login-comment p {
+    font-size: 1.6rem;
+    color: #B5B5B5;
+}
+
+.login-comment a {
+    font-size: 1.8rem;
+    color: #3aaf9a;
+    font-weight: 600;
+}
+
+form {
+    width: 94%;
+    margin-top: 2.5rem;
+}
+
+.search-form {
+    width: 100%;
+    height: 20rem;
+}
+
+.login {
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    font-size: 1.4rem;
+    padding-left: 4rem;
+    border: 0;
+    background-color: #fbfbfb;
+}
+
+.background-line {
+    height: 5rem;
+    width: 0.5rem;
+    background-color: #3aaf9a;
+    position: absolute;
+    z-index: 4;
+}
+
+.form-group i {
+    font-size: 2rem;
+    position: absolute;
+    top: 25%;
+    left: 250%;
+    color: #3aaf9a;
+    z-index: 5;
+}
+
+input[type=e-mail]:focus,
+input[type=e-mail]:active {
+    outline: 0;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 1rem;
+}
+
+label {
+    position: relative;
+    top: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3aaf9a;
+}
+
+.form-group a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3aaf9a;
+    position: relative;
+    top: 0.7rem;
+}
+
+.register-button {
+    width: 48%;
+    height: 5em;
+    background-color: #2B7A78;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: relative;
+    top: 4rem;
+}
+
+.register-button a {
+    font-size: 2rem;
+    color: #fff;
+ 
+}
+
+.login-button {
+    width: 48%;
+    height: 5em;
+    background-color: #3aaf9a;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: relative;
+    top: 4rem; 
+}
+
+.login-button a {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.with-login {
+    position: relative;
+    top: 7rem;
+}
+
+.with-login h4 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #3aaf9a;
+    
+}
+
+.login-box {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    margin-top: 1rem;
+}
+
+/*  */
+.login-heading-left {
+    margin-top: 6rem;
+}
+
+.login-heading-left p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/*Header Search*/
+.form-control {
+    height: 7rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.1px;
+    color: #9D9D9D;
+    padding: 0 1rem;
+    flex: 350px 0 0 !important;
+    background-clip: inherit;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.home-page-search {
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: #3AAFA9;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.home-page-search:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.responsive-close {
+    display: none;
+}
+
+/* */
+
+/* Login Responsive */
+
+@media (min-width:414px){
+    .login-account {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width:500px) {
+    .login-account {
+        height: 60rem;
+        margin-top: 0rem;
+    }
+    
+    .login-heading h3 {
+    height: 6rem;
+    font-size: 2.6rem;
+    margin-top: 4rem;
+}
+    
+    .login-comment p {
+        font-size: 2.3rem;
+        color: #B5B5B5;
+    }
+    
+    .login-comment a {
+    font-size: 2.3rem;
+ 
+}
+     
+     form {
+    width: 95%;
+    margin-top: 3rem;
+}
+    
+     .login {
+        height: 7rem;
+        position: relative;
+        background-color: #fbfbfb;
+        }
+
+     .background-line {
+    height: 7rem;
+}
+
+    .form-group i {
+        font-size: 2.6rem;
+        top: 30%;
+}
+     
+    .with-login {
+    top: 9rem;
+}
+    
+    .with-login h4 {
+    font-size: 2rem;
+}
+    
+    .login-box {
+    width: 7rem;
+    height: 7rem;
+        margin-top: 2rem;
+}
+    
+    .login-box a img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    
+    
+}
+
+@media (min-width:992px) {
+    .responsive-close {
+        display: inline-block;
+    }
+    
+    .background {
+        display: inline-block;
+    }
+    
+    .login-account {
+         width: 95%;
+        height: 55rem;
+        margin-top: 6rem;
+         margin-left: auto;
+    }
+    
+    .login-heading h3 {
+    height: 4rem;
+    font-size: 2.6rem;
+    margin-top: 4rem;
+}
+    
+    .login-comment p {
+        font-size: 2rem;
+    }
+    
+    .login-comment a {
+    font-size: 2rem;
+ 
+}
+     form {
+    width: 85%;
+    margin-top: 2rem;
+}
+    
+     .login {
+        height: 5rem;
+        position: relative;  
+        }
+
+     .background-line {
+    height: 5rem;
+}
+
+    .form-group i {
+        font-size: 2rem;
+        top: 25%;
+}
+     
+    .with-login {
+    top: 9rem;
+}
+    
+    .with-login h4 {
+    font-size: 2rem;
+}
+    
+    .login-box {
+    width: 5rem;
+    height: 5rem;
+}
+    
+    .login-box a img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+}
+
+@media (min-width:1200px) {
+    .login-account {
+        width: 95%;
+        height:50rem;
+        margin-top: 3rem;
+        margin-left: auto;
+    }
+}
