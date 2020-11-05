@@ -34,12 +34,12 @@ h1 {
 }
 
 body {
-    overflow-y: hidden;
+/*    overflow-y: hidden;*/
 }
 
 form {
     width: 94%;
-    margin-top: 2.5rem;
+    margin-top: 0rem;
 }
 
 /* Background & Left Header*/
@@ -115,6 +115,10 @@ label {
     font-size: 1.2rem;
     font-weight: 600;
     color: #3aaf9a;
+}
+
+.label {
+    top: 0;
 }
 
 .form-group a {
@@ -213,17 +217,17 @@ label {
 
 .register-account {
     width: 100%;
-    height: 45rem;
+    height: 50rem;
     background-color: #fff;
     border-radius: 2rem;
-    margin-top: 5rem;
+    margin-top: 1.2rem;
     -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
     -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
     box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
 }
 
 .register-heading h3 {
-    height: 3rem;
+    height: 2rem;
     font-size: 2.3rem;
     font-weight: 600;
     color: #3aaf9a;
@@ -246,6 +250,21 @@ label {
 
 
 /* Login Responsive */
+
+@media (min-width:375px) {
+    .login-account {
+        margin-top: 8rem;
+    }
+
+    .background img {
+        display: none;
+    }
+    
+    .register-account {
+        height: 56rem;
+        margin-top: 1.5rem;
+    }
+}
 @media (min-width:414px) {
     .login-account {
         margin-top: 8rem;
@@ -253,6 +272,11 @@ label {
 
     .background img {
         display: none;
+    }
+    
+    .register-account {
+        height: 60rem;
+        margin-top: 3rem;
     }
 }
 
@@ -307,7 +331,7 @@ label {
     }
 
     .register-account {
-        height: 62rem;
+        height: 71rem;
         margin-top: 3rem;
 
     }
@@ -317,6 +341,11 @@ label {
     .login-page {
         padding-top: 80px;
     }
+    
+    .register-account {
+        height: 75rem;
+    }
+    
 
 
 }
@@ -380,9 +409,13 @@ label {
     }
 
     .register-account {
-        height: 50rem;
-        margin-top: 6rem;
+        height: 62rem;
+        margin-top: 1.2rem;
 
+    }
+    
+    .register-page {
+        padding-top: 80px;
     }
 
 }
@@ -393,5 +426,12 @@ label {
         height: 50rem;
         margin-top: 3rem;
         margin-left: auto;
+    }
+ 
+}
+
+@media (min-width:1920px) {
+    body {
+        overflow-y: hidden;
     }
 }
