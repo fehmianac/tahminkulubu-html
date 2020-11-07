@@ -1,0 +1,119 @@
+/*Login Input Css*/
+
+.login {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #bfbfbf;
+    padding-left: 4rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    background-color: #fbfbfb;
+}
+
+.background-line {
+    height: 3rem;
+    width: 0.5rem;
+    background-color: #3aaf9a;
+    position: absolute;
+    z-index: 4;
+}
+
+.form-group i {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 25%;
+    left: 250%;
+    color: #3aaf9a;
+    z-index: 5;
+}
+
+input:hover,
+input:active,
+input:focus
+{
+    border: 0;
+    outline: 0;
+}
+
+input::placeholder {
+    color: #bfbfbf;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 1rem;
+}
+
+/* Register - Login Button */
+
+.register-button {
+    width: 48%;
+    height: 4em;
+    background-color: #2B7A78;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    z-index: 9;
+    margin: 3.5rem 0rem 1rem 0rem;
+}
+.register-button a {
+    font-size: 2rem;
+    color: #fff;
+
+}
+
+.login-button {
+    width: 48%;
+    height: 5em;
+    background-color: #3aaf9a;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    position: relative;
+    top: 4rem;
+}
+
+.login-button a {
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Responsive */
+
+@media (min-width:375px) {
+    .register-button {
+        margin:5rem 0rem 1rem 0rem;
+    }
+    
+    .login {
+        height: 4rem;
+    }
+    .background-line {
+        height: 4rem;
+    }
+    .form-group i
+    {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width:500px) {
+    .login {
+    width: 100%;
+}
+
+}
+
+@media (min-width:992px) {
+     .login {
+        height: 4rem;
+    }
+    .background-line {
+        height: 4rem;
+    }
+    .form-group i
+    {
+        font-size: 1.7rem;
+    }
+}

@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.3rem;
+    color: #fff;
+    font-weight:
+}
+
+body {
+    /*    overflow-y: hidden;*/
+}
+
+form {
+    width: 96%;
+    margin-top: 0rem;
+}
+
+/* Register */
+.register-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+}
+
+.register {
+    margin-top: -3rem;
+}
+
+.register-account {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-top: 1.3rem;
+    -webkit-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.13);
+}
+
+.register-heading h3 {
+    height: 2rem;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #3aaf9a;
+    letter-spacing: 1.2px;
+    margin-top: 1rem;
+}
+
+.register-comment p {
+    font-size: 1.6rem;
+    color: #B5B5B5;
+}
+
+.register-comment a {
+    font-size: 1.8rem;
+    color: #3aaf9a;
+    font-weight: 600;
+}
+
+/* Checkbox */
+input[type="checkbox"]:default,
+input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+}
+
+.checkbox1 label {
+    font-size: 1.4rem;
+    color: #3a3a3a;
+    font-weight: 600;
+}
+
+/* Background & Left Header*/
+
+.background img {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.gradient {
+    background: rgb(58, 175, 154);
+    background: -webkit-linear-gradient(306deg, rgba(58, 175, 154, 1) 0%, rgba(244, 244, 244, 1) 100%);
+    background: -o-linear-gradient(306deg, rgba(58, 175, 154, 1) 0%, rgba(244, 244, 244, 1) 100%);
+    background: linear-gradient(36deg, rgba(58, 175, 154, 1) 0%, rgba(244, 244, 244, 1) 100%);
+    position: absolute;
+}
+
+.background {
+    position: absolute;
+}
+
+/*Login*/
+
+.search-form {
+    width: 100%;
+    height: 14rem;
+}
+
+.login-heading-left {
+    margin-top: 6rem;
+}
+
+.login-heading-left p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/*Header Search*/
+.form-control {
+    height: 7rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.1px;
+    color: #9D9D9D;
+    padding: 0 1rem;
+    flex: 350px 0 0 !important;
+    background-clip: inherit;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+
+.home-page-search {
+    font-size: 1.2rem;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: #3AAFA9;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.home-page-search:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.responsive-close {
+    display: none;
+}
+
+/* Login Responsive */
+
+@media (min-width:375px) {
+    .register-account {
+        margin-top: 3rem;
+    }
+
+    .background img {
+        display: none;
+    }
+
+    .checkbox1 label {
+        font-size: 1.2rem;
+    }
+
+    input[type="checkbox"]:default,
+    input[type="checkbox"] {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media (min-width:414px) {
+    .login-account {
+        margin-top: 8rem;
+    }
+
+    .background img {
+        display: none;
+    }
+
+    .register-account {
+        height: auto;
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width:500px) {
+    .login-page {
+        padding-top: 80px;
+    }
+
+    .login-heading h3 {
+        height: 6rem;
+        font-size: 2.6rem;
+        margin-top: 4rem;
+    }
+
+    .login-comment p {
+        font-size: 2.3rem;
+        color: #B5B5B5;
+    }
+
+    .login-comment a {
+        font-size: 2.3rem;
+
+    }
+
+    form {
+        width: 95%;
+        margin-top: 3rem;
+    }
+
+
+    .register-account {
+        height: auto;
+        margin-top: 3rem;
+
+    }
+}
+
+@media (min-width:768px) {
+    .login-page {
+        padding-top: 80px;
+    }
+
+    .register-account {
+        height: auto;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    .responsive-close {
+        display: inline-block;
+    }
+
+    .background img {
+        display: inline-block;
+    }
+
+    form {
+        width: 85%;
+        margin-top: 2rem;
+    }
+
+    .register-account {
+        height: auto;
+        margin-top: 3rem;
+
+    }
+
+    .register-page {
+        padding-top: 80px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .register-account {
+        width: 95%;
+        height: auto;
+        margin-top: 2rem;
+        margin-left: auto;
+    }
+
+    .register-page {
+        padding-top: 80px;
+    }
+
+}
+
+@media (min-width:1920px) {
+    body {
+        overflow-y: hidden;
+    }
+}
