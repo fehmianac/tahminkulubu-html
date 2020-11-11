@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yeni Tahmin</title>
+    <!--    Mobile Device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!--Navbar Css-->
+    <link rel="stylesheet" href="../css/navbar.css">
+
+    <!--Search Page CSS-->
+    <link rel="stylesheet" href="../css/newguess.css">
+
+    <!--Card CSS-->
+    <link rel="stylesheet" href="../css/card.css">
+
+    <!--Footer CSS-->
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!--    Google Fonts-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--    Font Awesome-->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg fixed-top bg-light">
+        <!--Container-->
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand my-2" href="#">tahminkulübü.com</a>
+            <!--Responsive Menu-->
+            <button class="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbars01" aria-controls="navbars01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!--Navigation Menu Item-->
+
+            <div class="collapse navbar-collapse" id="navbars01">
+
+                <ul class="navbar-nav mx-auto my-2">
+
+                    <li class="nav-item "><a class="nav-link mx-4 active" href="#">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Predictions</a></li>
+
+                    <li class="nav-item"><a class="nav-link mx-4" href="#">Authors</a> </li>
+
+
+
+                </ul>
+
+                <!--Dropdown Menu Account-->
+                <div class="dropdown d-flex">
+
+                    <div class="account-icons float-right">
+                        <a href="#"><i class="fas fa-bell mt-4 mr-3"></i></a>
+                        <a href="#"><i class="fas fa-comment-alt"></i></a>
+                    </div>
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                        <!--Dropdown Image-->
+
+                        <div class="account-img float-left p-2">
+                            <img src="../img/face.jpg" alt="">
+                        </div>
+
+                        <!--Dropdown Account Text-->
+                        <p class="d-inline-block mt-2">My Account
+                            <br>
+
+                            <span class="float-left">Jhen Lui </span>
+                        </p>
+
+                    </button>
+
+                    <!--Dropdown Menu-->
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">My Profile</a>
+                        <a class="dropdown-item" href="#">My Settings</a>
+                        <a class="dropdown-item" href="#">My Followers</a>
+                        <a class="dropdown-item" href="#">My Predictions</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+
+
+                </div>
+
+                <!--Dropdown Menu Account-->
+
+            </div>
+
+            <!--Navigation Menu Item-->
+        </div>
+        <!--Container-->
+    </nav>
+    <!--Navigation Bar-->
+
+    <!--BroadCast Section-->
+    <section id="broadcast">
+        <!--Container-->
+        <div class="container">
+            <!--Row-->
+            <div class="row">
+                <!--New Broadcast Section-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                    <!--Broadcast-->
+                    <div class="new-broadcast">
+                        <!--Heading-->
+                        <div class="heading">
+                            <h3>Başlık
+
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+
+                            </h3>
+                            <div class="head-brd">
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Lütfen Başlık Giriniz.."></textarea>
+                            </div>
+
+                        </div>
+                        <!--City-->
+                        <div class="city">
+                            <h4>Şehir
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+
+                            </h4>
+                            <div class="input-group mb-3">
+                                <select class="custom-select" id="inputGroupSelect02">
+                                    <option selected>Lütfen Şehir Seçiniz...</option>
+                                    <option value="1">İstanbul</option>
+                                    <option value="2">Kocaeli</option>
+                                    <option value="3">İzmir</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <!--Comment Short-->
+                        <div class="short-comment">
+                            <h4>Kısa Yorum
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="comment-brd">
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora enim aperiam harum velit expedita voluptate quia sunt voluptatem ipsam fugiat debitis, sapiente error odit atque laborum! Sint, odio cum quis."></textarea>
+                            </div>
+                        </div>
+                        <!--Original Comment-->
+                        <div class="original-comment">
+                            <h4>Yorum
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="comment-brd">
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae saepe laboriosam explicabo dolorem suscipit, magnam perspiciatis dicta rem perferendis consectetur iusto numquam quas. Voluptates, optio, accusantium. Explicabo totam nam alias."></textarea>
+
+                            </div>
+                        </div>
+                        <!--Success Now-->
+                        <div class="success-now">
+                            <h4>Başarı Durumu
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="input-group mb-3">
+                                <select class="custom-select" id="inputGroupSelect02">
+                                    <option selected>Başarı Durumu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <!--Award-->
+                        <div class="award-guess">
+                            <h4>Ödül
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="head-brd">
+
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Kaç Para Kazandı"></textarea>
+
+                            </div>
+                        </div>
+                        <!--Free-->
+                        <div class="free">
+                            <h4>Ücretsiz Olma Tarihi
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="head-brd">
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Hangi Tarihten Sonra Ücretsiz Olacak"></textarea>
+
+                            </div>
+                        </div>
+                        <!--Date-->
+                        <div class="date">
+                            <h4>Yayınlanma Tarihi
+                                <!--Tooltip-->
+                                <button type="button" class="" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit">
+                                    <i class="fas fa-question-circle"></i>
+                                </button>
+                                <!--Tooltip-->
+                            </h4>
+                            <div class="head-brd">
+
+                                <textarea name="" id="" cols="" rows="" placeholder="Yayınlama Tarihi"></textarea>
+
+                            </div>
+                        </div>
+                        <!--Date-->
+
+                    </div>
+                    <!--Broadcast-->
+                </div>
+                <!--New Broadcast Section-->
+
+                <!--AuthorsCard Layout-->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                    <!--Authors Card-->
+                    <div class="inf-broadcast float-right">
+                        <!--Profile Card-->
+                        <div class="detail-page-profile-card p-3">
+                            <!--Profile Card Image-->
+                            <div class="profile-card-img float-left mr-3">
+                                <img src="../img/face.jpg" alt="">
+                                <div class="profile-card-online-circle"></div>
+                            </div>
+                            <!--Profile Card User Name-->
+                            <div class="user-name">
+                                <h3 class="ml-5">John Deck</h3>
+                                <small>Authors</small>
+                            </div>
+                            <!--Line-->
+                            <div class="profile-line d-flex"></div>
+                            <!--Text Info-->
+                            <div class="profile-log">
+                                <p>Okunma Sayısı: <span> 1257</span></p>
+                                <p>Yorum Sayısı: <span> 1257</span></p>
+                                <p>Beğeni Sayısı: <span> 1257</span></p>
+                                <p>Yayınlanma Tarihi: <span>30.07.2020</span></p>
+                                <p>Güncelleme Tarihi: <span>30.07.2020</span> </p>
+                            </div>
+                            <!--Free Info-->
+                            <div class="input-checkbox">
+                                <input type="checkbox">
+                                <label class="form-check-label">Bu Tahmin Ücretsizdir</label>
+                            </div>
+                            <!--Button-->
+                            <div class="button float-left">
+                                <a href="#">Yayından Kaldır </a>
+                            </div>
+                            <!--Button-->
+                            <div class="button-2 float-right">
+                                <a href="#">Yayınla</a>
+                            </div>
+                        </div>
+                        <!--Profile Card-->
+                    </div>
+                    <!--Authors Card-->
+                </div>
+                <!--AuthorsCard Layout-->
+            </div>
+            <!--Row-->
+        </div>
+        <!--Container-->
+
+    </section>
+    <!--BroadCast Section-->
+
+
+    <!--Footer-->
+    <footer id="footer">
+        <!--Container-->
+        <div class="container">s
+            <!--Row-->
+            <div class="row">
+                <!--Logo About Us Text-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 footer-responsive">
+                    <a href="#" class="footer-logo">tahminkulübü.com</a>
+                    <h3 class="mt-5">About Us</h3>
+                    <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum numquam facilis veritatis fugiat corporis ipsam nemo fuga at architecto distinctio.</p>
+                </div>
+
+                <!--Information-->
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Information</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Home</a></li>
+                        <li class="my-2"><a href="#">About Us</a></li>
+                        <li class="my-2"><a href="#">Predictions</a></li>
+                        <li class="my-2"><a href="#">Authors</a></li>
+                        <li class="mt-2"><a href="#">Contact Us</a></li>
+                    </ul>
+
+
+
+                </div>
+
+                <!--Authors -->
+
+                <div class="col-lg-4- col-md-4 col-sm-12 mt-5 mb-5 footer-responsive footer-margin">
+
+                    <h3 class="footer-information">Authors</h3>
+
+                    <ul class="mt-5">
+                        <li class="mb-2"><a href="#">Latest Authors.</a></li>
+                        <li class="my-2"><a href="#">Popular Cities. Us</a></li>
+                        <li class="my-2"><a href="#">Popular Authors.</a></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/master.png" alt=""></li>
+                        <li class="my-5 mr-4 mb-3"><img src="../img/VISA.png" alt=""></li>
+
+                    </ul>
+
+                </div>
+
+                <!--Copyright-->
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="copyright text-center d-flex justify-content-center">
+                        <i class="far fa-copyright fa-2x mx-3"></i>
+                        <p>Copyright 2019-2020 Tüm Hakları Saklıdır</p>
+                    </div>
+                </div>
+            </div>
+            <!--Row-->
+        </div>
+        <!--Container-->
+    </footer>
+    <!--Footer-->
+
+
+    <!--Script-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+
+</body></html>

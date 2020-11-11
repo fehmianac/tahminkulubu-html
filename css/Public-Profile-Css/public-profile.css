@@ -56,6 +56,10 @@ small {
     margin: 1rem;
 }
 
+.active-heart {
+    color: #FF5353 !important;
+}
+
 /* Public Profile Responsive */
 
 @media screen and (min-width:768px) {
